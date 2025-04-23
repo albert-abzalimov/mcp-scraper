@@ -1,0 +1,254 @@
+
+ Community Servers
+
+A growing set of community-developed and maintained servers demonstrates various applications of MCP across different domains.
+
+    Note: Community servers are untested and should be used at your own risk. They are not affiliated with or endorsed by Anthropic.
+
+    Ableton Live - an MCP server to control Ableton Live.
+    Airbnb - Provides tools to search Airbnb and get listing details.
+    AI Agent Marketplace Index - MCP server to search more than 5000+ AI agents and tools of various categories from AI Agent Marketplace Index and monitor traffic of AI Agents.
+    Algorand - A comprehensive MCP server for tooling interactions (40+) and resource accessibility (60+) plus many useful prompts for interacting with the Algorand blockchain.
+    Airflow - A MCP Server that connects to Apache Airflow using official python client.
+    Airtable - Read and write access to Airtable databases, with schema inspection.
+    Airtable - Airtable Model Context Protocol Server.
+    AlphaVantage - MCP server for stock market data API AlphaVantage
+    Anki - An MCP server for interacting with your Anki decks and cards.
+    Any Chat Completions - Interact with any OpenAI SDK Compatible Chat Completions API like OpenAI, Perplexity, Groq, xAI and many more.
+    Apple Calendar - An MCP server that allows you to interact with your MacOS Calendar through natural language, including features such as event creation, modification, schedule listing, finding free time slots etc.
+    ArangoDB - MCP Server that provides database interaction capabilities through ArangoDB.
+    Arduino - MCP Server that enables AI-powered robotics using Claude AI and Arduino (ESP32) for real-world automation and interaction with robots.
+    Atlassian - Interact with Atlassian Cloud products (Confluence and Jira) including searching/reading Confluence spaces/pages, accessing Jira issues, and project metadata.
+    Attestable MCP - An MCP server running inside a trusted execution environment (TEE) via Gramine, showcasing remote attestation using RA-TLS. This allows an MCP client to verify the server before conencting.
+    AWS - Perform operations on your AWS resources using an LLM.
+    AWS Athena - A MCP server for AWS Athena to run SQL queries on Glue Catalog.
+    AWS Cost Explorer - Optimize your AWS spend (including Amazon Bedrock spend) with this MCP server by examining spend across regions, services, instance types and foundation models (demo video).
+    AWS Resources Operations - Run generated python code to securely query or modify any AWS resources supported by boto3.
+    AWS S3 - A sample MCP server for AWS S3 that flexibly fetches objects from S3 such as PDF documents.
+    Azure ADX - Query and analyze Azure Data Explorer databases.
+    Azure DevOps - An MCP server that provides a bridge to Azure DevOps services, enabling AI assistants to query and manage work items.
+    Baidu AI Search - Web search with Baidu Cloud's AI Search
+    Base Free USDC Transfer - Send USDC on Base for free using Claude AI! Built with Coinbase CDP.
+
+    Basic Memory - Local-first knowledge management system that builds a semantic graph from Markdown files, enabling persistent memory across conversations with LLMs.
+
+    BigQuery (by LucasHild) - This server enables LLMs to inspect database schemas and execute queries on BigQuery.
+    BigQuery (by ergut) - Server implementation for Google BigQuery integration that enables direct BigQuery database access and querying capabilities
+    Bing Web Search API (by hanchunglee) - Server implementation for Microsoft Bing Web Search API.
+    Bitable MCP (by lloydzhou) - MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools.
+    Blender (by ahujasid) - Blender integration allowing prompt enabled 3D scene creation, modeling and manipulation.
+    browser-use (by co-browser) - browser-use MCP server with dockerized playwright + chromium + vnc. supports stdio & resumable http.
+    Bsc-mcp The first MCP server that serves as the bridge between AI and BNB Chain, enabling AI agents to execute complex on-chain operations through seamless integration with the BNB Chain, including transfer, swap, launch, security check on any token and even more.
+    Calculator - This server enables LLMs to use calculator for precise numerical calculations.
+    CFBD API - An MCP server for the College Football Data API.
+    ChatMCP – An Open Source Cross-platform GUI Desktop application compatible with Linux, macOS, and Windows, enabling seamless interaction with MCP servers across dynamically selectable LLMs, by AIQL
+    ChatSum - Query and Summarize chat messages with LLM. by mcpso
+    Chroma - Vector database server for semantic document search and metadata filtering, built on Chroma
+    ClaudePost - ClaudePost enables seamless email management for Gmail, offering secure features like email search, reading, and sending.
+    Cloudinary - Cloudinary Model Context Protocol Server to upload media to Cloudinary and get back the media link and details.
+    code-assistant - A coding assistant MCP server that allows to explore a code-base and make changes to code. Should be used with trusted repos only (insufficient protection against prompt injections).
+    code-executor - An MCP server that allows LLMs to execute Python code within a specified Conda environment.
+    code-sandbox-mcp - An MCP server to create secure code sandbox environment for executing code within Docker containers.
+    cognee-mcp - GraphRAG memory server with customizable ingestion, data processing and search
+    coin_api_mcp - Provides access to coinmarketcap cryptocurrency data.
+    Contentful-mcp - Read, update, delete, publish content in your Contentful space(s) from this MCP Server.
+    crypto-feargreed-mcp - Providing real-time and historical Crypto Fear & Greed Index data.
+    cryptopanic-mcp-server - Providing latest cryptocurrency news to AI agents, powered by CryptoPanic.
+    Dappier - Connect LLMs to real-time, rights-cleared, proprietary data from trusted sources. Access specialized models for Real-Time Web Search, News, Sports, Financial Data, Crypto, and premium publisher content. Explore data models at marketplace.dappier.com.
+    Databricks - Allows LLMs to run SQL queries, list and get details of jobs executions in a Databricks account.
+    Datadog - Datadog MCP Server for application tracing, monitoring, dashboard, incidents queries built on official datadog api.
+    Data Exploration - MCP server for autonomous data exploration on .csv-based datasets, providing intelligent insights with minimal effort. NOTE: Will execute arbitrary Python code on your machine, please use with caution!
+    Dataset Viewer - Browse and analyze Hugging Face datasets with features like search, filtering, statistics, and data export
+    DBHub - Universal database MCP server connecting to MySQL, PostgreSQL, SQLite, DuckDB and etc.
+    DeepSeek MCP Server - Model Context Protocol server integrating DeepSeek's advanced language models, in addition to other useful API endpoints
+    Deepseek_R1 - A Model Context Protocol (MCP) server implementation connecting Claude Desktop with DeepSeek's language models (R1/V3)
+    deepseek-thinker-mcp - A MCP (Model Context Protocol) provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's thought processes from the Deepseek API service or from a local Ollama server.
+    Descope - An MCP server to integrate with Descope to search audit logs, manage users, and more.
+    DevRev - An MCP server to integrate with DevRev APIs to search through your DevRev Knowledge Graph where objects can be imported from diff. sources listed here.
+    Dicom - An MCP server to query and retrieve medical images and for parsing and reading dicom-encapsulated documents (pdf etc.).
+    Dify - A simple implementation of an MCP server for dify workflows.
+    Discord - A MCP server to connect to Discord guilds through a bot and read and write messages in channels
+    Discord - A MCP server, which connects to Discord through a bot, and provides comprehensive integration with Discord.
+    Discourse - A MCP server to search Discourse posts on a Discourse forum.
+    Docker - Integrate with Docker to manage containers, images, volumes, and networks.
+    Drupal - Server for interacting with Drupal using STDIO transport layer.
+    dune-analytics-mcp - A mcp server that bridges Dune Analytics data to AI agents.
+    EdgeOne Pages MCP - An MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.
+    Elasticsearch - MCP server implementation that provides Elasticsearch interaction.
+    ElevenLabs - A server that integrates with ElevenLabs text-to-speech API capable of generating full voiceovers with multiple voices.
+    Ergo Blockchain MCP -An MCP server to integrate Ergo Blockchain Node and Explorer APIs for checking address balances, analyzing transactions, viewing transaction history, performing forensic analysis of addresses, searching for tokens, and monitoring network status.
+    Eunomia - Extension of the Eunomia framework that connects Eunomia instruments with MCP servers
+    EVM MCP Server - Comprehensive blockchain services for 30+ EVM networks, supporting native tokens, ERC20, NFTs, smart contracts, transactions, and ENS resolution.
+    Everything Search - Fast file searching capabilities across Windows (using Everything SDK), macOS (using mdfind command), and Linux (using locate/plocate command).
+    Excel - Excel manipulation including data reading/writing, worksheet management, formatting, charts, and pivot table.
+    Fantasy PL - Give your coding agent direct access to up-to date Fantasy Premier League data
+    fastn.ai – Unified API MCP Server - A remote, dynamic MCP server with a unified API that connects to 1,000+ tools, actions, and workflows, featuring built-in authentication and monitoring.
+    Fetch - A server that flexibly fetches HTML, JSON, Markdown, or plaintext.
+    Fingertip - MCP server for Fingertip.com to search and create new sites.
+    Figma - Give your coding agent direct access to Figma file data, helping it one-shot design implementation.
+    Firebase - Server to interact with Firebase services including Firebase Authentication, Firestore, and Firebase Storage.
+    FireCrawl - Advanced web scraping with JavaScript rendering, PDF support, and smart rate limiting
+    FlightRadar24 - A Claude Desktop MCP server that helps you track flights in real-time using Flightradar24 data.
+    Ghost - A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude.
+    Github Actions - A Model Context Protocol (MCP) server for interacting with Github Actions.
+    Glean - A server that uses Glean API to search and chat.
+    Gmail - A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support.
+    Gmail Headless - Remote hostable MCP server that can get and send Gmail messages without local credential or file system setup.
+    Goal Story - a Goal Tracker and Visualization Tool for personal and professional development.
+    GOAT - Run more than +200 onchain actions on any blockchain including Ethereum, Solana and Base.
+    Godot - A MCP server providing comprehensive Godot engine integration for project editing, debugging, and scene management.
+    Golang Filesystem Server - Secure file operations with configurable access controls built with Go!
+    Goodnews - A simple MCP server that delivers curated positive and uplifting news stories.
+    Google Calendar - Integration with Google Calendar to check schedules, find time, and add/delete events
+    Google Calendar - Google Calendar MCP Server for managing Google calendar events. Also supports searching for events by attributes like title and location.
+    Google Custom Search - Provides Google Search results via the Google Custom Search API
+    Google Tasks - Google Tasks API Model Context Protocol Server.
+    GraphQL Schema - Allow LLMs to explore large GraphQL schemas without bloating the context.
+    HDW LinkedIn - Access to profile data and management of user account with HorizonDataWave.ai.
+    Heurist Mesh Agent - Access specialized web3 AI agents for blockchain analysis, smart contract security, token metrics, and blockchain interactions through the Heurist Mesh network.
+    Holaspirit - Interact with Holaspirit.
+    Home Assistant - Interact with Home Assistant including viewing and controlling lights, switches, sensors, and all other Home Assistant entities.
+    Home Assistant - Docker-ready MCP server for Home Assistant with entity management, domain summaries, automation support, and guided conversations. Includes pre-built container images for easy installation.
+    HubSpot - HubSpot CRM integration for managing contacts and companies. Create and retrieve CRM data directly through Claude chat.
+    HuggingFace Spaces - Server for using HuggingFace Spaces, supporting Open Source Image, Audio, Text Models and more. Claude Desktop mode for easy integration.
+    Hyperliquid - An MCP server implementation that integrates the Hyperliquid SDK for exchange data.
+    iFlytek Workflow - Connect to iFlytek Workflow via the MCP server and run your own Agent.
+    Image Generation - This MCP server provides image generation capabilities using the Replicate Flux model.
+    InfluxDB - Run queries against InfluxDB OSS API v2.
+    Inoyu - Interact with an Apache Unomi CDP customer data platform to retrieve and update customer profiles
+    Intercom - An MCP-compliant server for retrieving customer support tickets from Intercom. This tool enables AI assistants like Claude Desktop and Cline to access and analyze your Intercom support tickets.
+    iOS Simulator - A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators (iPhone, iPad, etc.) through natural language commands.
+    iTerm MCP - Integration with iTerm2 terminal emulator for macOS, enabling LLMs to execute and monitor terminal commands.
+    JavaFX - Make drawings using a JavaFX canvas
+    JDBC - Connect to any JDBC-compatible database and query, insert, update, delete, and more. Supports MySQL, PostgreSQL, Oracle, SQL Server, sqllite and more.
+    JSON - JSON handling and processing server with advanced query capabilities using JSONPath syntax and support for array, string, numeric, and date operations.
+    KiCad MCP - MCP server for KiCad on Mac, Windows, and Linux.
+    Keycloak MCP - This MCP server enables natural language interaction with Keycloak for user and realm management including creating, deleting, and listing users and realms.
+    Kibela (by kiwamizamurai) - Interact with Kibela API.
+    kintone - Manage records and apps in kintone through LLM tools.
+    Kong Konnect - A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.
+    Kubernetes - Connect to Kubernetes cluster and manage pods, deployments, and services.
+    Kubernetes and OpenShift - A powerful Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for any Kubernetes resource, this server provides specialized tools to interact with your cluster.
+    Langflow-DOC-QA-SERVER - A Model Context Protocol server for document Q&A powered by Langflow. It demonstrates core MCP concepts by providing a simple interface to query documents through a Langflow backend.
+    Lightdash - Interact with Lightdash, a BI tool.
+    Linear - Allows LLM to interact with Linear's API for project management, including searching, creating, and updating issues.
+    Linear (Go) - Allows LLM to interact with Linear's API via a single static binary.
+    LINE (by amornpan) - Implementation for LINE Bot integration that enables Language Models to read and analyze LINE conversations through a standardized interface. Features asynchronous operation, comprehensive logging, webhook event handling, and support for various message types.
+    LlamaCloud (by marcusschiesser) - Integrate the data stored in a managed index on LlamaCloud
+    llm-context - Provides a repo-packing MCP tool with configurable profiles that specify file inclusion/exclusion patterns and optional prompts.
+    mac-messages-mcp - An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment processing, contact management, group chat handling, and full support for sending and receiving messages.
+    MariaDB - MariaDB database integration with configurable access controls in Python.
+    Maton - Connect to your SaaS tools like HubSpot, Salesforce, and more.
+    MCP Compass - Suggest the right MCP server for your needs
+    MCP Create - A dynamic MCP server management service that creates, runs, and manages Model Context Protocol servers on-the-fly.
+    MCP Installer - This server is a server that installs other MCP servers for you.
+    mcp-k8s-go - Golang-based Kubernetes server for MCP to browse pods and their logs, events, namespaces and more. Built to be extensible.
+    mcp-local-rag - "primitive" RAG-like web search model context protocol (MCP) server that runs locally using Google's MediaPipe Text Embedder and DuckDuckGo Search. ✨ no APIs required ✨.
+    mcp-proxy - Connect to MCP servers that run on SSE transport, or expose stdio servers as an SSE server.
+    mem0-mcp - A Model Context Protocol server for Mem0, which helps with managing coding preferences.
+    MSSQL - MSSQL database integration with configurable access controls and schema inspection
+    MSSQL (by jexin) - MCP Server for MSSQL database in Python
+    MSSQL-Python (by amornpan) - A read-only Python implementation for MSSQL database access with enhanced security features, configurable access controls, and schema inspection capabilities. Focuses on safe database interaction through Python ecosystem.
+    MSSQL-MCP (by daobataotie) - MSSQL MCP that refer to the official website's SQLite MCP for modifications to adapt to MSSQL
+    Markdownify - MCP to convert almost anything to Markdown (PPTX, HTML, PDF, Youtube Transcripts and more)
+    Microsoft Teams - MCP server that integrates Microsoft Teams messaging (read, post, mention, list members and threads)
+    Mindmap (by YuChenSSR) - A server that generates mindmaps from input containing markdown code.
+    Minima - MCP server for RAG on local files
+    Mobile MCP (by Mobile Next) - MCP server for Mobile(iOS/Android) automation, app scraping and development using physical devices or simulators/emulators.
+    MongoDB - A Model Context Protocol Server for MongoDB.
+    MongoDB Lens - Full Featured MCP Server for MongoDB Databases.
+    Monday.com - MCP Server to interact with Monday.com boards and items.
+    Multicluster-MCP-Sever - The gateway for GenAI systems to interact with multiple Kubernetes clusters.
+    MySQL (by benborla) - MySQL database integration in NodeJS with configurable access controls and schema inspection
+    MySQL (by DesignComputer) - MySQL database integration in Python with configurable access controls and schema inspection
+    n8n - This MCP server provides tools and resources for AI assistants to manage n8n workflows and executions, including listing, creating, updating, and deleting workflows, as well as monitoring their execution status.
+    NASA (by ProgramComputer) - Access to a unified gateway of NASA's data sources including but not limited to APOD, NEO, EPIC, GIBS.
+    Nasdaq Data Link (by stefanoamorelli) - An MCP server to access, explore, and interact with Nasdaq Data Link’s extensive and valuable financial and economic datasets.
+    National Parks - The server provides latest information of park details, alerts, visitor centers, campgrounds, hiking trails, and events for U.S. National Parks.
+    NAVER (by pfldy2850) - This MCP server provides tools to interact with various Naver services, such as searching blogs, news, books, and more.
+    NS Travel Information - Access Dutch Railways (NS) real-time train travel information and disruptions through the official NS API.
+    Neo4j - A community built server that interacts with Neo4j Graph Database.
+    Neovim - An MCP Server for your Neovim session.
+    Notion (by suekou) - Interact with Notion API.
+    Notion (by v-3) - Notion MCP integration. Search, Read, Update, and Create pages through Claude chat.
+    ntfy-mcp (by teddyzxcv) - The MCP server that keeps you informed by sending the notification on phone using ntfy
+    oatpp-mcp - C++ MCP integration for Oat++. Use Oat++ to build MCP servers.
+    Obsidian Markdown Notes - Read and search through your Obsidian vault or any directory containing Markdown notes
+    obsidian-mcp - (by Steven Stavrakis) An MCP server for Obsidian.md with tools for searching, reading, writing, and organizing notes.
+    OceanBase - (by yuanoOo) A Model Context Protocol (MCP) server that enables secure interaction with OceanBase databases.
+    Okta - Interact with Okta API.
+    OneNote - (by Rajesh Vijay) An MCP server that connects to Microsoft OneNote using the Microsoft Graph API. Reading notebooks, sections, and pages from OneNote,Creating new notebooks, sections, and pages in OneNote.
+    OpenAI WebSearch MCP - This is a Python-based MCP server that provides OpenAI web_search build-in tool.
+    OpenAPI - Interact with OpenAPI APIs.
+    OpenAPI AnyApi - Interact with large OpenAPI docs using built-in semantic search for endpoints. Allows for customizing the MCP server prefix.
+    OpenAPI Schema - Allow LLMs to explore large OpenAPI schemas without bloating the context.
+    OpenCTI - Interact with OpenCTI platform to retrieve threat intelligence data including reports, indicators, malware and threat actors.
+    OpenDota - Interact with OpenDota API to retrieve Dota 2 match data, player statistics, and more.
+    OpenRPC - Interact with and discover JSON-RPC APIs via OpenRPC.
+    Open Strategy Partners Marketing Tools - Content editing codes, value map, and positioning tools for product marketing.
+    Pandoc - MCP server for seamless document format conversion using Pandoc, supporting Markdown, HTML, PDF, DOCX (.docx), csv and more.
+    PIF - A Personal Intelligence Framework (PIF), providing tools for file operations, structured reasoning, and journal-based documentation to support continuity and evolving human-AI collaboration across sessions.
+    Pinecone - MCP server for searching and uploading records to Pinecone. Allows for simple RAG features, leveraging Pinecone's Inference API.
+    Placid.app - Generate image and video creatives using Placid.app templates
+    Playwright - This MCP Server will help you run browser automation and webscraping using Playwright
+    Postman - MCP server for running Postman Collections locally via Newman. Allows for simple execution of Postman Server and returns the results of whether the collection passed all the tests.
+    Productboard - Integrate the Productboard API into agentic workflows via MCP.
+    Prometheus - Query and analyze Prometheus - open-source monitoring system.
+    Pulumi - MCP Server to Interact with Pulumi API, creates and lists Stacks
+    Pushover - Send instant notifications to your devices using Pushover.net
+    QGIS - connects QGIS to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more.
+    QuickChart - A Model Context Protocol server for generating charts using QuickChart.io
+    Qwen_Max - A Model Context Protocol (MCP) server implementation for the Qwen models.
+    RabbitMQ - The MCP server that interacts with RabbitMQ to publish and consume messages.
+    RAG Web Browser An MCP server for Apify's open-source RAG Web Browser Actor to perform web searches, scrape URLs, and return content in Markdown.
+    Reaper - Interact with your Reaper (Digital Audio Workstation) projects.
+    Redis - Redis database operations and caching microservice server with support for key-value operations, expiration management, and pattern-based key listing.
+    Redis MCP server to interact with Redis Server, AWS Memory DB, etc for caching or other use-cases where in-memory and key-value based storage is appropriate
+    Rememberizer AI - An MCP server designed for interacting with the Rememberizer data source, facilitating enhanced knowledge retrieval.
+    Replicate - Search, run and manage machine learning models on Replicate through a simple tool-based interface. Browse models, create predictions, track their status, and handle generated images.
+    Rquest - An MCP server providing realistic browser-like HTTP request capabilities with accurate TLS/JA3/JA4 fingerprints for bypassing anti-bot measures.
+    Rijksmuseum - Interface with the Rijksmuseum API to search artworks, retrieve artwork details, access image tiles, and explore user collections.
+    Salesforce MCP - Interact with Salesforce Data and Metadata
+    Scholarly - A MCP server to search for scholarly and academic articles.
+    scrapling-fetch - Access text content from bot-protected websites. Fetches HTML/markdown from sites with anti-automation measures using Scrapling.
+    SearXNG - A Model Context Protocol Server for SearXNG
+    ServiceNow - A MCP server to interact with a ServiceNow instance
+    Shopify - MCP to interact with Shopify API including order, product, customers and so on.
+    Siri Shortcuts - MCP to interact with Siri Shortcuts on macOS. Exposes all Shortcuts as MCP tools.
+    Snowflake - This MCP server enables LLMs to interact with Snowflake databases, allowing for secure and controlled data operations.
+    Solana Agent Kit - This MCP server enables LLMs to interact with the Solana blockchain with help of Solana Agent Kit by SendAI, allowing for 40+ protcool actions and growing
+    Spotify - This MCP allows an LLM to play and use Spotify.
+    Starwind UI - This MCP provides relevant commands, documentation, and other information to allow LLMs to take full advantage of Starwind UI's open source Astro components.
+    Stripe - This MCP allows integration with Stripe for handling payments, customers, and refunds.
+    ShaderToy - This MCP server lets LLMs to interact with the ShaderToy API, allowing LLMs to learn from compute shaders examples and enabling them to create complex GLSL shaders that they are previously not capable of.
+    TMDB - This MCP server integrates with The Movie Database (TMDB) API to provide movie information, search capabilities, and recommendations.
+    Tavily search - An MCP server for Tavily's search & news API, with explicit site inclusions/exclusions
+    Telegram - An MCP server that provides paginated chat reading, message retrieval, and message sending capabilities for Telegram through Telethon integration.
+    Terminal-Control - A MCP server that enables secure terminal command execution, directory navigation, and file system operations through a standardized interface.
+    TFT-Match-Analyzer - MCP server for teamfight tactics match history & match details fetching, providing user the detailed context for every match.
+    Ticketmaster - Search for events, venues, and attractions through the Ticketmaster Discovery API
+    Todoist - Interact with Todoist to manage your tasks.
+    Typesense - A Model Context Protocol (MCP) server implementation that provides AI models with access to Typesense search capabilities. This server enables LLMs to discover, search, and analyze data stored in Typesense collections.
+    Travel Planner - Travel planning and itinerary management server integrating with Google Maps API for location search, place details, and route calculations.
+    Unity Catalog - An MCP server that enables LLMs to interact with Unity Catalog AI, supporting CRUD operations on Unity Catalog Functions and executing them as MCP tools.
+    Unity3d Game Engine - An MCP server that enables LLMs to interact with Unity3d Game Engine, supporting access to a variety of the Unit's Editor engine tools (e.g. Console Logs, Test Runner logs, Editor functions, hierarchy state, etc) and executing them as MCP tools or gather them as resources.
+    Unity Integration (Advanced) - Advanced Unity3d Game Engine MCP which supports ,Execution of Any Editor Related Code Directly Inside of Unity, Fetch Logs, Get Editor State and Allow File Access of the Project making it much more useful in Script Editing or asset creation.
+    Vega-Lite - Generate visualizations from fetched data using the VegaLite format and renderer.
+    Video Editor - A Model Context Protocol Server to add, edit, and search videos with Video Jungle.
+    Virtual location (Google Street View,etc.) - Integrates Google Map, Google Street View, PixAI, Stability.ai, ComfyUI API and Bluesky to provide a virtual location simulation in LLM (written in Effect.ts)
+    VolcEngine TOS - A sample MCP server for VolcEngine TOS that flexibly get objects from TOS.
+    Wanaku MCP Router - The Wanaku MCP Router is a SSE-based MCP server that provides an extensible routing engine that allows integrating your enterprise systems with AI agents.
+    Webflow - Interfact with the Webflow APIs
+    whale-tracker-mcp - A mcp server for tracking cryptocurrency whale transactions.
+    Whois MCP - MCP server that performs whois lookup against domain, IP, ASN and TLD.
+    Wikidata MCP - Wikidata MCP server that interact with Wikidata, by searching identifiers, extracting metadata, and executing sparql query.
+    WildFly MCP - WildFly MCP server that enables LLM to interact with running WildFly servers (retrieve metrics, logs, invoke operations, ...).
+    Windows CLI - MCP server for secure command-line interactions on Windows systems, enabling controlled access to PowerShell, CMD, and Git Bash shells.
+    World Bank data API - A server that fetches data indicators available with the World Bank as part of their data API
+    X (Twitter) (by EnesCinr) - Interact with twitter API. Post tweets and search for tweets by query.
+    X (Twitter) (by vidhupv) - Create, manage and publish X/Twitter posts directly through Claude chat.
+    xcodebuild - 🍎 Build iOS Xcode workspace/project and feed back errors to llm.
+    Xero-mcp-server - Enabling clients to interact with Xero system for streamlined accounting, invoicing, and business operations.
+    XiYan - 🗄️ An MCP server that supports fetching data from a database using natural language queries, powered by XiyanSQL as the text-to-SQL LLM.
+    XMind - Read and search through your XMind directory containing XMind files.
+    YouTube - Comprehensive YouTube API integration for video management, Shorts creation, and analytics.

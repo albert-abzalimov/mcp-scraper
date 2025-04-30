@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score, silhouette_score
 
 # 1. Load and flatten JSON
-with open('translated_details.json', encoding='utf-8') as f:
+with open('../translated_details.json', encoding='utf-8') as f:
     data = json.load(f)
 
 records = []

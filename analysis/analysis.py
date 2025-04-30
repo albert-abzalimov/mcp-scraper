@@ -30,7 +30,7 @@ df = pd.DataFrame(records)
 
 df['published_date'] = pd.to_datetime(df['published_date'], errors='coerce')
 df['year'] = df['published_date'].dt.year
-df['month'] = df['published_date'].dt.to_period('M')
+df['week'] = df['published_date'].dt.to_period('W')
 df['MCP_usage'] = pd.to_numeric(df['MCP_usage'], errors='coerce').fillna(0)
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -66,19 +66,19 @@ print("\n🧮 Usage by Cluster:\n", usage_by_cluster)
 deployment_counts = df["MCP_deployment_status"].value_counts()
 print("\n📡 Deployment Status Distribution:\n", deployment_counts)
 
-# 7. Trend by published month
-trend = df.groupby('month')["MCP_usage"].sum()
+# # 7. Trend by published month
+# trend = df.groupby('month')["MCP_usage"].sum()
 
-plt.figure(figsize=(12, 5))
-trend.plot(marker='o')
-plt.title("MCP Usage Over Time")
-plt.xlabel("Month")
-plt.ylabel("Total Usage")
-plt.grid(True)
-plt.tight_layout()
-plt.savefig("usage_trend.png")
-plt.show()
+# plt.figure(figsize=(12, 5))
+# trend.plot(marker='o')
+# plt.title("MCP Usage Over Time")
+# plt.xlabel("Month")
+# plt.ylabel("Total Usage")
+# plt.grid(True)
+# plt.tight_layout()
+# plt.savefig("usage_trend.png")
+# plt.show()
 
 # 8. Save categorized CSV
 df.to_csv("categorized_mcp_tools.csv", index=False)
-print("\n✅ Categorized CSV saved as 'categorized_mcp_tools.csv'")
+print("\n Categorized CSV saved as 'categorized_mcp_tools.csv'")

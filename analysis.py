@@ -1,14 +1,15 @@
 
 import json
+import umap.umap_ as umap
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
 
+umap_model = umap.UMAP(n_components=2, random_state=42)
 # 1. Load and flatten JSON
-with open('details.json') as f:
+with open('translated_details.json') as f:
     data = json.load(f)
 
 records = []
@@ -39,8 +40,12 @@ num_clusters = 10
 kmeans = KMeans(n_clusters=num_clusters, random_state=42)
 df['cluster'] = kmeans.fit_predict(embeddings)
 
-pca = PCA(n_components=2)
-reduced = pca.fit_transform(embeddings)
+# pca = pca(n_components=2)
+# reduced = pca.fit_transform(embeddings)
+
+umap_model = umap.UMAP(n_components=2, random_state=42)
+reduced = umap_model.fit_transform(embeddings)
+
 df['x'] = reduced[:, 0]
 df['y'] = reduced[:, 1]
 

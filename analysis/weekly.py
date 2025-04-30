@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv("categorized_mcp_tools.csv")
-df = df[['MCP_name', 'week']]
-df = df.groupby("MCP_name").first()
+df = df[['MCP_index', 'week']]
+df = df.groupby("MCP_index").first()
 trend = df['week'].value_counts().sort_index()
 plt.figure(figsize=(12, 5))
 trend.plot(marker='o')
@@ -14,5 +14,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("usage_trend.png")
 plt.show()
-
+print(trend)
 

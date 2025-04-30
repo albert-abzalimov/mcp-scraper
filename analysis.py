@@ -7,14 +7,17 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 
 umap_model = umap.UMAP(n_components=2, random_state=42)
-# 1. Load and flatten JSON
+# 1. Load and flatten JSONtryhjukil;'
+ 
 with open('translated_details.json', encoding='utf-8') as f:
     data = json.load(f)
 
 records = []
+index = 0
 for mcp in data:
     for tool in mcp.get("tools", []):
         records.append({
+            "MCP_index": index,
             "MCP_name": mcp.get("MCP_name"),
             "MCP_description": mcp.get("MCP_description"),
             "MCP_usage": mcp.get("MCP_usage"),
@@ -24,9 +27,9 @@ for mcp in data:
             "tool_id": tool.get("id"),
             "tool_description": tool.get("description")
         })
+    index += 1
 
 df = pd.DataFrame(records)
-
 df['published_date'] = pd.to_datetime(df['published_date'], errors='coerce')
 df['year'] = df['published_date'].dt.year
 df['week'] = df['published_date'].dt.to_period('W')

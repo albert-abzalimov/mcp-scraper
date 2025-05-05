@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load and filter data
-df = pd.read_csv("final_classified_mcp_servers.csv")
+df = pd.read_csv("gpt_classified_mcp_servers.csv")
 df = df[["published_date", "Category"]]
 df = df[df["Category"] != "Unclassified"]
 
@@ -30,5 +30,5 @@ ax.grid(True)
 ax.legend(title="Category", loc='upper left')
 
 plt.tight_layout()
-plt.savefig("analysis/plots/Categories_by_Week.png", bbox_inches='tight')
+plt.savefig("analysis/plots/GPT_Categories_by_Week.png", bbox_inches='tight')
 plt.show()

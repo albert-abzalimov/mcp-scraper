@@ -35,11 +35,11 @@ df['MCP_usage'] = pd.to_numeric(df['MCP_usage'], errors='coerce').fillna(0)
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-texts = (df['tool_id'] + ": " + df['tool_description']).tolist()
+texts = ("Tool name: " + df['tool_id'] + ". Description: " + df['tool_description']).tolist()
 embeddings = model.encode(texts, show_progress_bar=True)
 
 
-num_clusters = 10
+num_clusters = 5
 kmeans = KMeans(n_clusters=num_clusters, random_state=42)
 df['cluster'] = kmeans.fit_predict(embeddings)
 

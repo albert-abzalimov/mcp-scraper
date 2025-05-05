@@ -41,24 +41,29 @@ for mcp in data:
 
 df = pd.DataFrame(records)
 
+# Remove or flag descriptions that are too short after preprocessing
+
 # 2. Preprocess text fields and combine for modeling
 df['clean_tool_description'] = df['tool_description'].fillna("").apply(preprocess)
-texts = (df['tool_id'] + ": " + df['clean_tool_description']).tolist()
+
+df["clean_length"] = df["clean_tool_description"].apply(lambda x: len(x.split()))
+df = df[df["clean_length"] >= 5]  # Only keep rows with 5+ meaningful words
+texts = (df["tool_id"] + ": " + df["clean_tool_description"]).tolist()
 
 # 3. Load sentence transformer model
-embedding_model = SentenceTransformer("multi-qa-mpnet-base-cos-v1")
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # 4. Define custom vectorizer with stopwords and bigrams
 vectorizer_model = CountVectorizer(stop_words="english", ngram_range=(1, 2), min_df=2)
 
 # 5. Create BERTopic model with custom vectorizer
-topic_model = BERTopic(embedding_model=embedding_model, vectorizer_model=vectorizer_model, top_n_words=10)
+topic_model = BERTopic(embedding_model=embedding_model, vectorizer_model=vectorizer_model, top_n_words=10, min_topic_size = 5)
 
 # 6. Fit model and extract topics
 topics, probs = topic_model.fit_transform(texts)
 
 # Optional: Reduce number of topics
-reduced_topic_model = topic_model.reduce_topics(texts, nr_topics=15)
+reduced_topic_model = topic_model.reduce_topics(texts, nr_topics=25)
 reduced_topics, reduced_probs = reduced_topic_model.transform(texts)
 
 # Add topic assignments to DataFrame

@@ -3,3 +3,5 @@ categorized_mcp_tools.csv
 *.ipynb
 .ipynb_checkpoints
 __pycache__
+*.csv
+*.html

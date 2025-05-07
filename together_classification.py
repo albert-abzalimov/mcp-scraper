@@ -1,13 +1,13 @@
+from together import Together
 import json
 import os
 import time
 import logging
 import argparse
-import google.generativeai as genai
 from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
 from tqdm import tqdm
-from google.api_core.exceptions import ResourceExhausted
+
 
 def setup(batch_number, model_name):
     # Setup logging
@@ -18,10 +18,7 @@ def setup(batch_number, model_name):
     )
 
     load_dotenv()
-
-    # Configure Gemini API
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-    model = genai.GenerativeModel(model_name)
+    client = Together()
 
     file_name = f"mcp_batches/batch_{batch_number}.json"
     with open(file_name, "r", encoding='utf-8') as f:
@@ -49,7 +46,7 @@ def setup(batch_number, model_name):
         "Run Process",
     ]
 
-    return data, model, purpose_categories, action_categories, file_name
+    return data, client, purpose_categories, action_categories, file_name
 
 def mcp_purpose_prompt(mcp_name, description, purpose_categories):
     return f"""
@@ -76,9 +73,12 @@ Which Action category does this tool fall into? Just return the category.
 """
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=4, max=10))
-def generate_response(model, prompt):
-    response = model.generate_content(prompt)
-    return response.text.strip()
+def generate_response(client, prompt):
+    response = client.chat.completions.create(
+        model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return response.choices[0].message.content.strip()
 
 def main():
     # Parse CLI arguments
@@ -88,7 +88,7 @@ def main():
     args = parser.parse_args()
 
     # Load data and model
-    data, model, purpose_categories, action_categories, file_name = setup(args.batch_number, args.model_name)
+    data, client, purpose_categories, action_categories, file_name = setup(args.batch_number, args.model_name)
     
     results = []
     MAX_REQUESTS = 1500
@@ -106,11 +106,11 @@ def main():
 
             try:
                 prompt = mcp_purpose_prompt(mcp_name, mcp_desc, purpose_categories)
-                mcp_purpose = generate_response(model, prompt)
+                mcp_purpose = generate_response(client, prompt)
                 request_count += 1
                 logging.info(f"→ Purpose: {mcp_purpose}")
-            except ResourceExhausted:
-                logging.error("Quota or rate limit exceeded. Exiting early.")
+            except Exception as e:
+                logging.error(f"Error during MCP classification: {e}")
                 break
 
             time.sleep(1)
@@ -127,10 +127,10 @@ def main():
 
                 try:
                     tool_prompt = tool_action_prompt(tool_id, tool_desc, action_categories)
-                    action_cat = generate_response(model, tool_prompt)
+                    action_cat = generate_response(client, tool_prompt)
                     request_count += 1
                     logging.info(f"  → Action: {action_cat}")
-                except ResourceExhausted:
+                except Exception as e:
                     logging.error("Quota or rate limit exceeded. Exiting early.")
                     break
 

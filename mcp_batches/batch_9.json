@@ -1,0 +1,930 @@
+[
+  {
+    "MCP_name": "Alphavantage MCP Server",
+    "MCP_description": "Access real-time and historical stock market data effortlessly. Integrate stock market insights into your applications using the Alphavantage API with this MCP server. Get started quickly by configuring your API key and running the server to fetch market data.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@calvernaz/alphavantage",
+    "license": "Apache-2",
+    "published_date": "3/7/2025",
+    "publisher": "calvernaz",
+    "github": "https://github.com/calvernaz/alphavantage",
+    "tools": [
+      {
+        "id": "stock_quote",
+        "description": "Fetch a stock quote",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_intraday",
+        "description": "Fetch a time series intraday",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_daily",
+        "description": "Fetch a time series daily",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_daily_adjusted",
+        "description": "Fetch a time series daily adjusted",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_weekly",
+        "description": "Fetch a time series weekly",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_weekly_adjusted",
+        "description": "Fetch a time series weekly adjusted",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_monthly",
+        "description": "Fetch a time series monthly",
+        "description_lang": "en"
+      },
+      {
+        "id": "time_series_monthly_adjusted",
+        "description": "Fetch a time series monthly adjusted",
+        "description_lang": "en"
+      },
+      {
+        "id": "realtime_bulk_quotes",
+        "description": "Fetch real time bulk quotes",
+        "description_lang": "en"
+      },
+      {
+        "id": "symbol_search",
+        "description": "Search endpoint",
+        "description_lang": "en"
+      },
+      {
+        "id": "market_status",
+        "description": "Fetch market status",
+        "description_lang": "sv"
+      },
+      {
+        "id": "realtime_options",
+        "description": "Fetch realtime options",
+        "description_lang": "en"
+      },
+      {
+        "id": "historical_options",
+        "description": "Fetch historical options",
+        "description_lang": "en"
+      },
+      {
+        "id": "news_sentiment",
+        "description": "Fetch news sentiment",
+        "description_lang": "en"
+      },
+      {
+        "id": "top_gainers_losers",
+        "description": "Fetch top gainers and losers",
+        "description_lang": "en"
+      },
+      {
+        "id": "insider_transactions",
+        "description": "Fetch insider transactions",
+        "description_lang": "en"
+      },
+      {
+        "id": "analytics_fixed_window",
+        "description": "Fetch analytics fixed window",
+        "description_lang": "en"
+      },
+      {
+        "id": "analytics_sliding_window",
+        "description": "Fetch analytics sliding window",
+        "description_lang": "en"
+      },
+      {
+        "id": "company_overview",
+        "description": "Fetch company overview",
+        "description_lang": "en"
+      },
+      {
+        "id": "etf_profile",
+        "description": "Fetch ETF profile",
+        "description_lang": "en"
+      },
+      {
+        "id": "company_dividends",
+        "description": "Fetch company dividends",
+        "description_lang": "en"
+      },
+      {
+        "id": "company_splits",
+        "description": "Fetch company splits",
+        "description_lang": "en"
+      },
+      {
+        "id": "income_statement",
+        "description": "Fetch company income statement",
+        "description_lang": "en"
+      },
+      {
+        "id": "balance_sheet",
+        "description": "Fetch company balance sheet",
+        "description_lang": "en"
+      },
+      {
+        "id": "cash_flow",
+        "description": "Fetch company cash flow",
+        "description_lang": "en"
+      },
+      {
+        "id": "listing_status",
+        "description": "Fetch listing status",
+        "description_lang": "en"
+      },
+      {
+        "id": "earnings_calendar",
+        "description": "Fetch company earnings calendar",
+        "description_lang": "en"
+      },
+      {
+        "id": "ipo_calendar",
+        "description": "Fetch IPO calendar",
+        "description_lang": "en"
+      },
+      {
+        "id": "exchange_rate",
+        "description": "Fetch exchange rate",
+        "description_lang": "en"
+      },
+      {
+        "id": "fx_intraday",
+        "description": "Fetch FX intraday",
+        "description_lang": "en"
+      },
+      {
+        "id": "fx_daily",
+        "description": "Fetch FX daily",
+        "description_lang": "cy"
+      },
+      {
+        "id": "fx_weekly",
+        "description": "Fetch FX weekly",
+        "description_lang": "en"
+      },
+      {
+        "id": "fx_monthly",
+        "description": "Fetch FX monthly",
+        "description_lang": "en"
+      },
+      {
+        "id": "crypto_intraday",
+        "description": "Fetch crypto intraday",
+        "description_lang": "en"
+      },
+      {
+        "id": "digital_currency_daily",
+        "description": "Fetch digital currency daily",
+        "description_lang": "en"
+      },
+      {
+        "id": "digital_currency_weekly",
+        "description": "Fetch digital currency weekly",
+        "description_lang": "en"
+      },
+      {
+        "id": "digital_currency_monthly",
+        "description": "Fetch digital currency monthly",
+        "description_lang": "en"
+      },
+      {
+        "id": "wti_crude_oil",
+        "description": "Fetch WTI crude oil",
+        "description_lang": "en"
+      },
+      {
+        "id": "brent_crude_oil",
+        "description": "Fetch Brent crude oil",
+        "description_lang": "fr"
+      },
+      {
+        "id": "natural_gas",
+        "description": "Fetch natural gas",
+        "description_lang": "en"
+      },
+      {
+        "id": "copper",
+        "description": "Fetch copper",
+        "description_lang": "en"
+      },
+      {
+        "id": "aluminum",
+        "description": "Fetch aluminum",
+        "description_lang": "ro"
+      },
+      {
+        "id": "wheat",
+        "description": "Fetch wheat",
+        "description_lang": "en"
+      },
+      {
+        "id": "corn",
+        "description": "Fetch corn",
+        "description_lang": "en"
+      },
+      {
+        "id": "cotton",
+        "description": "Fetch cotton",
+        "description_lang": "en"
+      },
+      {
+        "id": "sugar",
+        "description": "Fetch sugar",
+        "description_lang": "en"
+      },
+      {
+        "id": "coffee",
+        "description": "Fetch coffee",
+        "description_lang": "en"
+      },
+      {
+        "id": "all_commodities",
+        "description": "Fetch all commodities",
+        "description_lang": "en"
+      },
+      {
+        "id": "real_gdp",
+        "description": "Fetch real GDP",
+        "description_lang": "en"
+      },
+      {
+        "id": "real_gdp_per_capita",
+        "description": "Fetch real GDP per capita",
+        "description_lang": "en"
+      },
+      {
+        "id": "treasury_yield",
+        "description": "Fetch treasury yield",
+        "description_lang": "en"
+      },
+      {
+        "id": "federal_funds_rate",
+        "description": "Fetch federal funds rate",
+        "description_lang": "en"
+      },
+      {
+        "id": "cpi",
+        "description": "Fetch consumer price index",
+        "description_lang": "en"
+      },
+      {
+        "id": "inflation",
+        "description": "Fetch inflation",
+        "description_lang": "en"
+      },
+      {
+        "id": "retail_sales",
+        "description": "Fetch retail sales",
+        "description_lang": "fr"
+      },
+      {
+        "id": "durables",
+        "description": "Fetch durables",
+        "description_lang": "fr"
+      },
+      {
+        "id": "unemployment",
+        "description": "Fetch unemployment",
+        "description_lang": "fr"
+      },
+      {
+        "id": "nonfarm_payroll",
+        "description": "Fetch nonfarm payroll",
+        "description_lang": "cy"
+      },
+      {
+        "id": "sma",
+        "description": "Fetch simple moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "ema",
+        "description": "Fetch exponential moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "wma",
+        "description": "Fetch weighted moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "dema",
+        "description": "Fetch double exponential moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "trima",
+        "description": "Fetch triangular moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "kama",
+        "description": "Fetch Kaufman adaptive moving average",
+        "description_lang": "sv"
+      },
+      {
+        "id": "mama",
+        "description": "Fetch MESA adaptive moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "vwap",
+        "description": "Fetch volume weighted average price",
+        "description_lang": "en"
+      },
+      {
+        "id": "t3",
+        "description": "Fetch triple exponential moving average",
+        "description_lang": "en"
+      },
+      {
+        "id": "macd",
+        "description": "Fetch moving average convergence divergence",
+        "description_lang": "en"
+      },
+      {
+        "id": "macdext",
+        "description": "Fetch moving average convergence divergence next",
+        "description_lang": "en"
+      },
+      {
+        "id": "stoch",
+        "description": "Fetch stochastic oscillator",
+        "description_lang": "en"
+      },
+      {
+        "id": "stochf",
+        "description": "Fetch stochastic oscillator fast",
+        "description_lang": "en"
+      },
+      {
+        "id": "rsi",
+        "description": "Fetch relative strength index",
+        "description_lang": "en"
+      },
+      {
+        "id": "stochrsi",
+        "description": "Fetch stochastic relative strength index",
+        "description_lang": "en"
+      },
+      {
+        "id": "willr",
+        "description": "Fetch williams percent range",
+        "description_lang": "en"
+      },
+      {
+        "id": "adx",
+        "description": "Fetch average directional movement index",
+        "description_lang": "en"
+      },
+      {
+        "id": "adxr",
+        "description": "Fetch average directional movement index rating",
+        "description_lang": "en"
+      },
+      {
+        "id": "apo",
+        "description": "Fetch absolute price oscillator",
+        "description_lang": "it"
+      },
+      {
+        "id": "ppo",
+        "description": "Fetch percentage price oscillator",
+        "description_lang": "it"
+      },
+      {
+        "id": "mom",
+        "description": "Fetch momentum",
+        "description_lang": "en"
+      },
+      {
+        "id": "bop",
+        "description": "Fetch balance of power",
+        "description_lang": "en"
+      },
+      {
+        "id": "cci",
+        "description": "Fetch commodity channel index",
+        "description_lang": "en"
+      },
+      {
+        "id": "cmo",
+        "description": "Fetch chande momentum oscillator",
+        "description_lang": "en"
+      },
+      {
+        "id": "roc",
+        "description": "Fetch rate of change",
+        "description_lang": "en"
+      },
+      {
+        "id": "rocr",
+        "description": "Fetch rate of change ratio",
+        "description_lang": "en"
+      },
+      {
+        "id": "aroon",
+        "description": "Fetch aroon",
+        "description_lang": "en"
+      },
+      {
+        "id": "aroonosc",
+        "description": "Fetch aroon oscillator",
+        "description_lang": "en"
+      },
+      {
+        "id": "mfi",
+        "description": "Fetch money flow index",
+        "description_lang": "en"
+      },
+      {
+        "id": "trix",
+        "description": "Fetch triple exponential average",
+        "description_lang": "en"
+      },
+      {
+        "id": "ultosc",
+        "description": "Fetch ultimate oscillator",
+        "description_lang": "it"
+      },
+      {
+        "id": "dx",
+        "description": "Fetch directional movement index",
+        "description_lang": "en"
+      },
+      {
+        "id": "minus_di",
+        "description": "Fetch minus directional indicator",
+        "description_lang": "en"
+      },
+      {
+        "id": "plus_di",
+        "description": "Fetch plus directional indicator",
+        "description_lang": "en"
+      },
+      {
+        "id": "minus_dm",
+        "description": "Fetch minus directional movement",
+        "description_lang": "en"
+      },
+      {
+        "id": "plus_dm",
+        "description": "Fetch plus directional movement",
+        "description_lang": "fr"
+      },
+      {
+        "id": "bbands",
+        "description": "Fetch bollinger bands",
+        "description_lang": "sv"
+      },
+      {
+        "id": "midpoint",
+        "description": "Fetch midpoint",
+        "description_lang": "en"
+      },
+      {
+        "id": "midprice",
+        "description": "Fetch midprice",
+        "description_lang": "en"
+      },
+      {
+        "id": "sar",
+        "description": "Fetch parabolic sar",
+        "description_lang": "en"
+      },
+      {
+        "id": "trange",
+        "description": "Fetch true range",
+        "description_lang": "en"
+      },
+      {
+        "id": "atr",
+        "description": "Fetch average true range",
+        "description_lang": "sv"
+      },
+      {
+        "id": "natr",
+        "description": "Fetch normalized average true range",
+        "description_lang": "en"
+      },
+      {
+        "id": "ad",
+        "description": "Fetch accumulation/distribution line",
+        "description_lang": "en"
+      },
+      {
+        "id": "adosc",
+        "description": "Fetch accumulation/distribution oscillator",
+        "description_lang": "it"
+      },
+      {
+        "id": "obv",
+        "description": "Fetch on balance volume",
+        "description_lang": "en"
+      },
+      {
+        "id": "ht_trendline",
+        "description": "Fetch hilbert transform - trendline",
+        "description_lang": "en"
+      },
+      {
+        "id": "ht_sine",
+        "description": "Fetch hilbert transform - sine wave",
+        "description_lang": "en"
+      },
+      {
+        "id": "ht_trendmode",
+        "description": "Fetch hilbert transform - trend mode",
+        "description_lang": "en"
+      },
+      {
+        "id": "ht_dcperiod",
+        "description": "Fetch hilbert transform - dominant cycle period",
+        "description_lang": "en"
+      },
+      {
+        "id": "ht_dcphase",
+        "description": "Fetch hilbert transform - dominant cycle phase",
+        "description_lang": "en"
+      },
+      {
+        "id": "ht_phasor",
+        "description": "Fetch hilbert transform - phasor components",
+        "description_lang": "en"
+      }
+    ],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Place ID Server",
+    "MCP_description": "Retrieve dynamic location photos from the Google Places API to enhance your wireframes and prototypes. Integrate real-time images into your projects, improving user experience and realism. Simplify the process of fetching and displaying location images with secure API management.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@TimHub88/place-id-mcp-server",
+    "license": "MIT",
+    "published_date": "3/8/2025",
+    "publisher": "TimHub88",
+    "github": "https://github.com/TimHub88/place-id-mcp-server",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Vault MCP",
+    "MCP_description": "Securely manage secrets and policies with HashiCorp Vault through a structured API. Automate policy generation and resource discovery to enhance your LLM's capabilities. Simplify secret management for your applications with ease.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@ashgw/vault-mcp",
+    "license": "MIT",
+    "published_date": "4/14/2025",
+    "publisher": "ashgw",
+    "github": "https://github.com/ashgw/vault-mcp",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "OSV Database API Server",
+    "MCP_description": "Fetch and manage vulnerability data for software packages. Get detailed information on CVEs, affected versions, and fixes to enhance your security posture.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@EdenYavin/osv-mcp",
+    "license": "MIT",
+    "published_date": "4/13/2025",
+    "publisher": "EdenYavin",
+    "github": "https://github.com/EdenYavin/OSV-MCP",
+    "tools": [
+      {
+        "id": "query_package_cve",
+        "description": "Query the OSV database for a package and return the CVE ID.\n\n    Args:\n        package: The package name to query\n        version: The version of the package to query, can be None if you want to query all versions\n        ecosystem: The ecosystem of the package to query, can be None if you want to query all ecosystems. \n        * Supported ecosystems:\n         - For python packages, the ecosystem is \"PyPI\"\n    Returns:\n        A list of CVE IDs",
+        "description_lang": "en"
+      },
+      {
+        "id": "query_for_cve_affected",
+        "description": "Query the OSV database for a CVE and return the affected versions.\n\n    Args:\n        cve: The CVE ID to query\n\n    Returns:\n        A list of affected versions",
+        "description_lang": "en"
+      },
+      {
+        "id": "query_for_cve_fix_versions",
+        "description": "Query the OSV database for a CVE and return the fix versions.\n\n    Args:\n        cve: The CVE ID to query\n\n    Returns:\n        A list of fix versions",
+        "description_lang": "en"
+      }
+    ],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "MooFlow EVM Smart Contract Server 123",
+    "MCP_description": "Enable seamless interaction with Ethereum-compatible smart contracts by generating tools from contract ABIs. Perform read and write operations, manage transactions with gas estimation, and listen to contract events across multiple chains. Simplify blockchain integration with automatic environment variable generation and comprehensive error handling.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@mooflowai/mooflow-mcp",
+    "license": "Apache-2",
+    "published_date": "4/15/2025",
+    "publisher": "mooflowai",
+    "github": "https://github.com/smithery-ai",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "FastDomainCheck",
+    "MCP_description": "Check the registration status of multiple domain names quickly and efficiently. Validate domain availability using both WHOIS and DNS checks, ensuring accurate results with built-in error handling. Streamline your domain management process with concise output and robust input validation.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@bingal/fastdomaincheck-mcp-server",
+    "license": "MIT",
+    "published_date": "3/18/2025",
+    "publisher": "bingal",
+    "github": "https://github.com/bingal/FastDomainCheck-MCP-Server",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "PayPal MCP Server",
+    "MCP_description": "Integrate with PayPal's APIs for payment processing and business management.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@DynamicEndpoints/Paypal-MCP",
+    "license": "MIT",
+    "published_date": "2/21/2025",
+    "publisher": "DynamicEndpoints",
+    "github": "https://github.com/DynamicEndpoints/Paypal-MCP",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Hive MCP Server",
+    "MCP_description": "Connect AI assistants to the Hive blockchain. Fetch account details, retrieve posts, vote on content, and send tokens securely. Enhance your AI's capabilities with blockchain interactions and cryptographic functions.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@gluneau/hive-mcp-server",
+    "license": "ISC",
+    "published_date": "3/10/2025",
+    "publisher": "gluneau",
+    "github": "https://github.com/gluneau/hive-mcp-server",
+    "tools": [
+      {
+        "id": "get_account_info",
+        "description": "Fetches detailed information about a Hive blockchain account including balance, authority, voting power, and other account metrics.",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_account_history",
+        "description": "Retrieves transaction history for a Hive account with optional operation type filtering.",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_vesting_delegations",
+        "description": "Get a list of vesting delegations made by a specific Hive account",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_post_content",
+        "description": "Retrieves a specific Hive blog post identified by author and permlink, including the post title, content, and metadata.",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_posts_by_tag",
+        "description": "Retrieves Hive posts filtered by a specific tag and sorted by a category like trending, hot, or created.",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_posts_by_user",
+        "description": "Retrieves posts authored by or in the feed of a specific Hive user.",
+        "description_lang": "en"
+      },
+      {
+        "id": "vote_on_post",
+        "description": "Vote on a Hive post (upvote or downvote) using the configured Hive account.",
+        "description_lang": "en"
+      },
+      {
+        "id": "send_token",
+        "description": "Send HIVE or HBD tokens to another Hive account using the configured account credentials.",
+        "description_lang": "en"
+      },
+      {
+        "id": "create_post",
+        "description": "Create a new blog post on the Hive blockchain using the configured account credentials.",
+        "description_lang": "en"
+      },
+      {
+        "id": "create_comment",
+        "description": "Create a comment on an existing Hive post or reply to another comment.",
+        "description_lang": "en"
+      },
+      {
+        "id": "sign_message",
+        "description": "Sign a message using a Hive private key from environment variables.",
+        "description_lang": "en"
+      },
+      {
+        "id": "verify_signature",
+        "description": "Verify a digital signature against a Hive public key",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_chain_properties",
+        "description": "Fetch current Hive blockchain properties and statistics",
+        "description_lang": "en"
+      },
+      {
+        "id": "encrypt_message",
+        "description": "Encrypt a message for a specific Hive account using memo encryption",
+        "description_lang": "en"
+      },
+      {
+        "id": "decrypt_message",
+        "description": "Decrypt an encrypted message received from a specific Hive account",
+        "description_lang": "en"
+      },
+      {
+        "id": "send_encrypted_message",
+        "description": "Send an encrypted message to a Hive account using a small token transfer",
+        "description_lang": "en"
+      },
+      {
+        "id": "get_encrypted_messages",
+        "description": "Retrieve encrypted messages from account history with optional decryption",
+        "description_lang": "en"
+      }
+    ],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Grokart",
+    "MCP_description": "MCP server that allows you to generate images using Grok's AI image generation capabilities. The server is configured with a xAI API key and is now available for use.\n\nHow to Use Image Generation\nYou can now ask me to generate images with commands like:\n\n\"Generate an image of a cat sitting on a mountain\"\n\"Create an illustration of a futuristic city\"\n\"Make a picture of an astronaut riding a horse\"\n\"Show me what a dragon in a library would look like\"\nThe MCP server supports generating multiple images (up to 10) and can return either URLs or base64-encoded images.\n\nBehind the scenes, the server:\n\nTakes your text prompt\nSends it to the Grok AI image generation API (grok-2-image model)\nReturns the generated image(s) with their URLs or base64 data\nAlso provides the revised prompt that was used for generation\nThe implementation is complete and ready to use immediately!",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@8bitsats/grok-mcp",
+    "published_date": "3/21/2025",
+    "publisher": "8bitsats",
+    "github": "https://github.com/8bitsats/Grok-MCP",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "时间服务器",
+    "MCP_description": "Gets multiple formats of the current time, supporting ISO, Unix timestamps and human-readable formats. Easily integrate time services into your application through the MCP protocol interface.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@1259187996/time",
+    "published_date": "3/17/2025",
+    "publisher": "1259187996",
+    "github": "https://github.com/1259187996/time",
+    "tools": [],
+    "MCP_description_lang": "zh-cn"
+  },
+  {
+    "MCP_name": "Tool Chainer",
+    "MCP_description": "Chain multiple MCP tools together to streamline workflows and reduce token usage. Pass results seamlessly between tools for efficient data processing. Simplify complex tasks with a single call, enhancing performance and minimizing latency.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@thirdstrandstudio/mcp-tool-chainer",
+    "license": "MIT",
+    "published_date": "3/21/2025",
+    "publisher": "thirdstrandstudio",
+    "github": "https://github.com/thirdstrandstudio/mcp-tool-chainer",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Airtable Integration Tool",
+    "MCP_description": "Connect your AI tools directly to Airtable. Query, create, update, and delete records using natural language, enabling seamless data management through a standardized interface. Enhance your productivity by integrating Airtable operations into your AI-powered applications effortlessly.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@mh8974/airtable-mcp",
+    "license": "MIT",
+    "published_date": "3/18/2025",
+    "publisher": "mh8974",
+    "github": "https://github.com/mh8974/Airtable-mcp",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Reference Servers",
+    "MCP_description": "Explore a variety of implementations that enhance Large Language Models with secure access to tools and data sources. Leverage these reference servers to integrate advanced functionalities into your applications effortlessly. Start building your own MCP server or utilize existing ones to unlock new capabilities for your LLMs.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@mirinda-cmd/reference-servers-check",
+    "license": "MIT",
+    "published_date": "4/10/2025",
+    "publisher": "mirinda-cmd",
+    "github": "https://github.com/mirinda-cmd/reference-servers-check/tree/main/./src/sequentialthinking",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Serp API Server",
+    "MCP_description": "Access real-time search engine results and data through a simple API. Enhance your applications with powerful search capabilities and insights from various search engines. Integrate effortlessly to retrieve and analyze search data for your projects.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@neoparad/serp-api-server",
+    "published_date": "3/17/2025",
+    "publisher": "neoparad",
+    "github": "https://github.com/neoparad/serp-api-server",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Scholarly Search",
+    "MCP_description": "Search for academic articles in arXiv.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/mcp-scholarly",
+    "published_date": "1/1/2025",
+    "publisher": "mcp-scholarly",
+    "github": "https://github.com/adityak74/mcp-scholarly",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "MySQL Server",
+    "MCP_description": "Connect and execute queries on your MySQL database seamlessly. Leverage a standardized API through the MCP protocol for efficient database interactions. Get started quickly with a FastAPI-based server setup and easy configuration management.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@aqaranewbiz/mysql-aqaranewbiz",
+    "published_date": "4/14/2025",
+    "publisher": "aqaranewbiz",
+    "github": "https://github.com/aqaranewbiz/mysql-aqaranewbiz",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Centralized Control Server",
+    "MCP_description": "Manage and coordinate distributed agents and tasks seamlessly. Register agents, create tasks, and monitor their status through a secure API. Enhance your workflow orchestration with a robust and extensible server framework.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@chinnuvani/test-sky-mcpserver",
+    "published_date": "3/18/2025",
+    "publisher": "chinnuvani",
+    "github": "https://github.com/chinnuvani/test-sky-mcpserver",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "SuperCollider Synth Executor",
+    "MCP_description": "Execute SuperCollider synths seamlessly using the SuperCollider programming language through an MCP server interface. Integrate audio synthesis capabilities into your LLM applications on macOS with Apple Silicon. Simplify sound generation workflows by leveraging supercolliderjs within the MCP framework.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@Synohara/supercollider-mcp",
+    "license": "MIT",
+    "published_date": "4/15/2025",
+    "publisher": "Synohara",
+    "github": "https://github.com/Synohara/supercollider-mcp",
+    "tools": [
+      {
+        "id": "synth-execute",
+        "description": "Generate SynthDef code and execute it to make the sound.",
+        "description_lang": "ja"
+      },
+      {
+        "id": "multi-synth-execute",
+        "description": "Run multiple SynthDefs at the same time.",
+        "description_lang": "ja"
+      }
+    ],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "API to MCP Tools",
+    "MCP_description": "Convert APIs into MCP tools effortlessly. Integrate various APIs into your MCP ecosystem with ease and enhance your applications with powerful capabilities.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@JayLi52/api2mcptools",
+    "published_date": "4/1/2025",
+    "publisher": "JayLi52",
+    "github": "https://github.com/JayLi52/api2mcptools",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "Discord MCP Server",
+    "MCP_description": "Integrate your Discord bot seamlessly with MCP-compatible applications. Enhance your bot's capabilities by leveraging the Model Context Protocol for advanced interactions and functionalities.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Remote",
+    "MCP_url": "/server/@SaseQ/discord-mcp",
+    "published_date": "3/14/2025",
+    "publisher": "SaseQ",
+    "github": "https://github.com/SaseQ/discord-mcp",
+    "tools": [],
+    "MCP_description_lang": "en"
+  },
+  {
+    "MCP_name": "ServeMyAPI",
+    "MCP_description": "Store API keys securely in the macOS Keychain and access them through a consistent interface. Eliminate the risks of .ENV files by providing a centralized, secure solution for managing sensitive credentials across projects. Enhance your AI assistant's capabilities by allowing it to retrieve keys using natural language commands.",
+    "MCP_usage": 0,
+    "MCP_deployment_status": "Local",
+    "MCP_url": "/server/@Jktfe/servemyapi",
+    "published_date": "3/14/2025",
+    "publisher": "Jktfe",
+    "github": "https://github.com/Jktfe/serveMyAPI",
+    "tools": [],
+    "MCP_description_lang": "en"
+  }
+]

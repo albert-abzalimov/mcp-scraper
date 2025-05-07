@@ -3,14 +3,14 @@ import os
 import time
 import logging
 import argparse
-import google.generativeai as genai
 from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
 from tqdm import tqdm
-from google.api_core.exceptions import ResourceExhausted
 
-def setup(batch_number, model_name):
-    # Setup logging
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+def setup(batch_number):
     logging.basicConfig(
         level=logging.INFO,
         format="[%(levelname)s] %(message)s",
@@ -19,15 +19,15 @@ def setup(batch_number, model_name):
 
     load_dotenv()
 
-    # Configure Gemini API
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-    model = genai.GenerativeModel(model_name)
+    logging.info("Loading model and tokenizer...")
+    model_name = "allenai/OLMo-2-0425-1B-Instruct"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name)
 
     file_name = f"mcp_batches/batch_{batch_number}.json"
     with open(file_name, "r", encoding='utf-8') as f:
         data = json.load(f)
 
-    # Predefined categories
     purpose_categories = [
         "Web Browser (search)",
         "Access to Database or Data",
@@ -36,7 +36,6 @@ def setup(batch_number, model_name):
         "Analytics",
         "Art/Creativity",
         "Local Work (terminal, files, code)",
-        # "Tooling",
         "Other (if unsure)"
     ]
 
@@ -49,7 +48,7 @@ def setup(batch_number, model_name):
         "Run Process",
     ]
 
-    return data, model, purpose_categories, action_categories, file_name
+    return data, tokenizer, model, purpose_categories, action_categories, file_name
 
 def mcp_purpose_prompt(mcp_name, description, purpose_categories):
     return f"""
@@ -76,20 +75,19 @@ Which Action category does this tool fall into? Just return the category.
 """
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=4, max=10))
-def generate_response(model, prompt):
-    response = model.generate_content(prompt)
-    return response.text.strip()
+def generate_response(tokenizer, model, prompt):
+    inputs = tokenizer(prompt, return_tensors="pt")
+    with torch.no_grad():
+        outputs = model.generate(**inputs, max_new_tokens=20, pad_token_id=tokenizer.eos_token_id)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True).split("\n")[-1].strip()
 
 def main():
-    # Parse CLI arguments
-    parser = argparse.ArgumentParser(description="Classify MCPs and Tools using Gemini.")
+    parser = argparse.ArgumentParser(description="Classify MCPs and Tools using Hugging Face.")
     parser.add_argument("batch_number", type=int, help="Batch number to process (e.g., 1 for batch_1.json)")
-    parser.add_argument("model_name", type=str, help="Gemini model to use (e.g., gemini-pro)")
     args = parser.parse_args()
 
-    # Load data and model
-    data, model, purpose_categories, action_categories, file_name = setup(args.batch_number, args.model_name)
-    
+    data, tokenizer, model, purpose_categories, action_categories, file_name = setup(args.batch_number)
+
     results = []
     MAX_REQUESTS = 1500
     request_count = 0
@@ -106,14 +104,14 @@ def main():
 
             try:
                 prompt = mcp_purpose_prompt(mcp_name, mcp_desc, purpose_categories)
-                mcp_purpose = generate_response(model, prompt)
+                mcp_purpose = generate_response(tokenizer, model, prompt)
                 request_count += 1
                 logging.info(f"→ Purpose: {mcp_purpose}")
-            except ResourceExhausted:
-                logging.error("Quota or rate limit exceeded. Exiting early.")
+            except Exception as e:
+                logging.error(f"Error during MCP classification: {e}")
                 break
 
-            time.sleep(1)
+            time.sleep(0.7)
 
             tool_results = []
             for tool in mcp["tools"]:
@@ -127,14 +125,14 @@ def main():
 
                 try:
                     tool_prompt = tool_action_prompt(tool_id, tool_desc, action_categories)
-                    action_cat = generate_response(model, tool_prompt)
+                    action_cat = generate_response(tokenizer, model, tool_prompt)
                     request_count += 1
                     logging.info(f"  → Action: {action_cat}")
-                except ResourceExhausted:
+                except Exception as e:
                     logging.error("Quota or rate limit exceeded. Exiting early.")
                     break
 
-                time.sleep(1)
+                # time.sleep(1)
 
                 tool_results.append({
                     "tool_id": tool_id,
@@ -154,7 +152,7 @@ def main():
     except KeyboardInterrupt:
         logging.warning("Process interrupted by user. Saving partial results...")
 
-    finally: 
+    finally:
         output_file = f"classified_batch_{args.batch_number}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2)

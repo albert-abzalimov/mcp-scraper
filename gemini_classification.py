@@ -127,11 +127,13 @@ for mcp in tqdm(data, desc="Classifying MCP Servers"):
 
         tool_results.append({
             "tool_id": tool_id,
+            "tool_description": tool_desc,  # Save tool description
             "action_category": action_cat
         })
 
     results.append({
         "mcp_name": mcp_name,
+        "mcp_description": mcp_desc,  # Save MCP description
         "purpose_category": mcp_purpose,
         "tools": tool_results
     })

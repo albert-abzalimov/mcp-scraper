@@ -5,10 +5,13 @@ import pandas as pd
 import json
 import nltk
 import re
+from umap import UMAP
+from nltk.corpus import stopwords
+
 
 # Download stopwords
-nltk.download('stopwords')
-from nltk.corpus import stopwords
+# nltk.download('stopwords')
+
 
 # Define stopwords set
 stop_words = set(stopwords.words('english'))
@@ -57,13 +60,14 @@ embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 vectorizer_model = CountVectorizer(stop_words="english", ngram_range=(1, 2), min_df=2)
 
 # 5. Create BERTopic model with custom vectorizer
-topic_model = BERTopic(embedding_model=embedding_model, vectorizer_model=vectorizer_model, top_n_words=10, min_topic_size = 5)
+umap_model = UMAP(random_state=1370)
+topic_model = BERTopic(embedding_model=embedding_model, vectorizer_model=vectorizer_model, top_n_words=10, min_topic_size = 15, umap_model=umap_model)
 
 # 6. Fit model and extract topics
-topics, probs = topic_model.fit_transform(texts)
+topics, probs = topic_model.fit_transform(texts)    
 
 # Optional: Reduce number of topics
-reduced_topic_model = topic_model.reduce_topics(texts, nr_topics=25)
+reduced_topic_model = topic_model.reduce_topics(texts, nr_topics=15)
 reduced_topics, reduced_probs = reduced_topic_model.transform(texts)
 
 # Add topic assignments to DataFrame

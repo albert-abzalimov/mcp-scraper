@@ -1,0 +1,5812 @@
+[
+  {
+    "mcp_name": "Toolbox",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "search_servers",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "use_tool",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "add_server",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "remove_server",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Sequential Thinking",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "sequentialthinking",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Desktop Commander",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "execute_command",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "read_output",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "force_terminate",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "list_sessions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_processes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "kill_process",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "block_command",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "unblock_command",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "list_blocked_commands",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_file",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_multiple_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "write_file",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "create_directory",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_directory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "move_file",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "search_files",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_code",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_file_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_allowed_directories",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "edit_block",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Think Tool Server",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "think",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Github",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "create_or_update_file",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_repositories",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "create_repository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_file_contents",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "push_files",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_issue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_pull_request",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "fork_repository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_branch",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_commits",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_issue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "add_issue_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_code",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_issues",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_users",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_issue",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Brave Search",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "brave_web_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "brave_local_search",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Browserbase",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "browserbase_create_session",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "browserbase_close_session",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "browserbase_navigate",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "browserbase_screenshot",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "browserbase_click",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "browserbase_fill",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "browserbase_evaluate",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "browserbase_get_content",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Magic MCP",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "21st_magic_component_builder",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "logo_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "21st_magic_component_inspiration",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "VeyraX MCP",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "get_tools",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "tool_call",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_flow",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Neon Database",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "__node_version",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_project",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_project",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "describe_project",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "run_sql",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "run_sql_transaction",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "describe_table_schema",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_database_tables",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_branch",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "prepare_database_migration",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "complete_database_migration",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "describe_branch",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "delete_branch",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "get_connection_string",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "provision_neon_auth",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Exa Search",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "web_search",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Perplexity Search",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Fetch",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "fetch",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Query | MCP Server for Supabase",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "get_schemas",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_tables",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_table_schema",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "execute_postgresql",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "retrieve_migrations",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "send_management_api_request",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_management_api_spec",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_auth_admin_methods_spec",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "call_auth_admin_method",
+        "action_category": "Get/Retrieve/List, Create/add, Delete/remove, Update, Run Process"
+      },
+      {
+        "tool_id": "live_dangerously",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "confirm_destructive_operation",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "E2B",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "run_code",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "DuckDuckGo Search Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "fetch_content",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Notion API",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_page",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_page",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_page",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "archive_page",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "restore_page",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get_page_property",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add_todo",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_todos",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "create_database",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "query_database",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "verify_connection",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_database_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add_content_blocks",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_block_content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_block_children",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_block_content",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_block",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Figma API Integration",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "set_api_key",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "check_api_key",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_file",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_file_nodes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_image",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_image_fills",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_comments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "post_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_comment",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "get_team_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_project_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_team_components",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_file_components",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_component",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_team_component_sets",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_team_styles",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_file_styles",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_style",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Tavily MCP Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "tavily-search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "tavily-extract",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Hyperbrowser",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "scrape_webpage",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "crawl_webpages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "extract_structured_data",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "browser_use_agent",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "openai_computer_use_agent",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "claude_computer_use_agent",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "search_with_bing",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "create_profile",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_profile",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "list_profiles",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Gemini Thinking Server",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "geminithinking",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Todoist MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "todoist_create_task",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "todoist_get_tasks",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_update_task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "todoist_delete_task",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "todoist_complete_task",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Stagehand",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "stagehand_navigate",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "stagehand_act",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "stagehand_extract",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "stagehand_observe",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "screenshot",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Aindreyway Codex Keeper",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "list_documentation",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add_documentation",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_documentation",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "search_documentation",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "remove_documentation",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Linear MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "linear_create_issue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_update_issue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_search_issues",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "linear_get_user_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_add_comment",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Playwright",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "echo",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "navigate",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_all_content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_visible_content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_interactive_elements",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "move_mouse",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "mouse_click",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "mouse_wheel",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "drag_and_drop",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Code MCP",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "execute_shell_command",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "create_diff",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "open_file",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "open_project",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "check_extension_status",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_extension_port",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_available_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_active_tabs",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_context_tabs",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Linear MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_issue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_issue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "list_teams",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_issues",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_issue",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Graphlit",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "retrieveContent",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "queryFeeds",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "deleteFeed",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "isFeedDone",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listMicrosoftTeamsTeams",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listMicrosoftTeamsChannels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listSlackChannels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listSharePointLibraries",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listSharePointFolders",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "ingestSharePointFiles",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestOneDriveFiles",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestGoogleDriveFiles",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestDropboxFiles",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestBoxFiles",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestGitHubFiles",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestNotionPages",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestMicrosoftTeamsMessages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "ingestSlackMessages",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestDiscordMessages",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestRedditPosts",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestGoogleEmail",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "ingestMicrosoftEmail",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "ingestLinearIssues",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestGitHubIssues",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestJiraIssues",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "webCrawl",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "webScrape",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "webMap",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "webSearch",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "ingestRSS",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "ingestUrl",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "ClickUp MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "get_workspace_hierarchy",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_task",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_task",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_tasks",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "move_task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "duplicate_task",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_task",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "create_bulk_tasks",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_bulk_tasks",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "move_bulk_tasks",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_bulk_tasks",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "create_list",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_list_in_folder",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_list",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_list",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "create_folder",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_folder",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_folder",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_folder",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Memory Bank Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": []
+  },
+  {
+    "mcp_name": "Crypto Price & Market Analysis Server",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "get-crypto-price",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-market-analysis",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-historical-analysis",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Fetch MCP Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "fetch_html",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_markdown",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_txt",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_json",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Google Workspace Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "list_emails",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_emails",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "send_email",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "modify_email",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "list_events",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_event",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_event",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_event",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "TaskManager",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "request_planning",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_next_task",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "mark_task_done",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "approve_task_completion",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "approve_request_completion",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "open_task_details",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_requests",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add_tasks_to_request",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_task",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Airbnb Search and Listing Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "airbnb_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "airbnb_listing_details",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Google Workspace MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "list_emails",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_emails",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "send_email",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "modify_email",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "list_events",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_event",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_event",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_event",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "YouTube Transcript Server",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "get_transcripts",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Feishu(\u98de\u4e66) Integration Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_feishu_document",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_feishu_document_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_feishu_document_content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_feishu_document_blocks",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_feishu_block_content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_feishu_block_text",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "batch_create_feishu_blocks",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_feishu_text_block",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_feishu_code_block",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_feishu_heading_block",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_feishu_list_block",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "convert_feishu_wiki_to_document_id",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "delete_feishu_document_blocks",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "get_feishu_image_resource",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_feishu_root_folder_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_feishu_folder_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_feishu_folder",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Mermaid Diagram Generator",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "generate",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Markdown Downloader",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "download_markdown",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_downloaded_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "set_download_directory",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get_download_directory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_subdirectory",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Hacker News",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "get_stories",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Knowledge Graph Memory Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "create_entities",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_relations",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_observations",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_entities",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "delete_observations",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "delete_relations",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "read_graph",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_nodes",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "open_nodes",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Instagram Engagement Analysis",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "analyze_post_comments",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "compare_accounts",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "extract_demographics",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "identify_leads",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "generate_engagement_report",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Starwind UI MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "init_project",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "install_component",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_component",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get_documentation",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_llm_data",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_package_manager",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Wolfram Alpha",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "query-wolfram-alpha",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "DeepView",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "deepview",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Zonos TTS Integration",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "speak_response",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Lunchmoney MCP Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "get-budget-summary",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-recent-transactions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search-transactions",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get-category-spending",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Hass-MCP",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "get_version",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_entity",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "entity_action",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "list_entities",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_entities_tool",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "domain_summary_tool",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "system_overview",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_automations",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "restart_ha",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "call_service_tool",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_history",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_error_log",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Figma MCP Server",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "figma_get_me",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_file",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_file_nodes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_images",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_image_fills",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_file_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_comments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_post_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "figma_delete_comment",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "figma_get_comment_reactions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_post_comment_reaction",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "figma_delete_comment_reaction",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "figma_get_team_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_project_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_team_components",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_file_components",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_component",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_team_component_sets",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_file_component_sets",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_component_set",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_team_styles",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_file_styles",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_style",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_post_webhook",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "figma_get_webhook",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_update_webhook",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "figma_delete_webhook",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "figma_get_team_webhooks",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_library_analytics_component_usages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_library_analytics_style_usages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "figma_get_library_analytics_variable_usages",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "YouTube MCP Server",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "getVideoDetails",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "searchVideos",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "getTranscripts",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getRelatedVideos",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getChannelStatistics",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getChannelTopVideos",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getVideoEngagementRatio",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getTrendingVideos",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "compareVideos",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Replicate Flux MCP",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "generate_image",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "generate_multiple_images",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "generate_image_variants",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "generate_svg",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_prediction",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_prediction",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "prediction_list",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Todoist-mcp-server-extended",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "todoist_create_task",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "todoist_get_tasks",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_update_task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "todoist_delete_task",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "todoist_complete_task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "todoist_get_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_create_project",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "todoist_update_project",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "todoist_get_project_sections",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_create_project_section",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "todoist_get_personal_labels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_create_personal_label",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "todoist_get_personal_label",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_update_personal_label",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "todoist_delete_personal_label",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "todoist_get_shared_labels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "todoist_rename_shared_labels",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "todoist_remove_shared_labels",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "todoist_update_task_labels",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "File System",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "read-file-21",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "n8n Workflow Builder",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_workflow",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Weather",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "get-alerts",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-forecast",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Claude Code MCP Server",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "explain_code",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "review_code",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "fix_code",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "edit_code",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "test_code",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "simulate_command",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "your_own_query",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Package Version",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "check_npm_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_python_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_pyproject_versions",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "check_maven_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_gradle_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_go_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_bedrock_models",
+        "action_category": "Search/Query, Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_latest_bedrock_model",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_docker_tags",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_swift_versions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "check_github_actions",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Trello Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "get_cards_by_list_id",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_lists",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_recent_activity",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add_card_to_list",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_card_details",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "archive_card",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "add_list_to_board",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "archive_list",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_my_cards",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Perplexity Deep Research",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "deep_research",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Tavily",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "tavily_web_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "tavily_answer_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "tavily_news_search",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "PostgreSQL Database Management Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "analyze_database",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_setup_instructions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "debug_database",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_schema_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_table",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "alter_table",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "export_table_data",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "import_table_data",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "copy_between_databases",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "monitor_database",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_functions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_function",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "drop_function",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "enable_rls",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "disable_rls",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "create_rls_policy",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "drop_rls_policy",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "get_rls_policies",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_triggers",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_trigger",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "drop_trigger",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "set_trigger_state",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Notion MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_page",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "archive_page",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "update_page_properties",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "restore_page",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "search_pages",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "append_block_children",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "retrieve_block",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "retrieve_block_children",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_block",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_block",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "create_database",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "query_database",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "update_database",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "batch_append_block_children",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "batch_update_blocks",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "batch_delete_blocks",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "batch_mixed_operations",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "OpenRouter MCP Server",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "chat_completion",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "search_models",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_model_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "validate_model",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Supabase Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "list_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_project",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_project",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_project",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "list_organizations",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_organization",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_organization",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_project_api_keys",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "MySQL Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "execute_sql",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Airtable Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "list_bases",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_tables",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_table",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_table",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "create_field",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_field",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "list_records",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_record",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_record",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_record",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "search_records",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_record",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Game Engine Server",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "gamedesignthinking",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "getGameSummary",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "exportGameDesign",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "MCP-Atlassian",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "confluence_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "confluence_get_page",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "confluence_get_page_children",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "confluence_get_page_ancestors",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "confluence_get_comments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "confluence_create_page",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "confluence_update_page",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "confluence_delete_page",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "confluence_attach_content",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "jira_get_issue",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "jira_get_project_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_epic_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_transitions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_worklog",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_download_attachments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_agile_boards",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_board_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_sprints_from_board",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_get_sprint_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "jira_create_issue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "jira_update_issue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "jira_delete_issue",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "jira_add_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "jira_add_worklog",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "jira_link_to_epic",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "jira_transition_issue",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Oxylabs MCP",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "oxylabs_universal_scraper",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "oxylabs_web_unblocker",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "oxylabs_google_search_scraper",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "oxylabs_amazon_search_scraper",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "oxylabs_amazon_product_scraper",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Fetch Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "fetch_html",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_markdown",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_txt",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_json",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Mixpanel Integration",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "get_today_top_events",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "profile_event_activity",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_top_events",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "aggregate_event_counts",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "aggregated_event_property_values",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "query_insights_report",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "query_funnel_report",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_saved_funnels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_saved_cohorts",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "query_retention_report",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "custom_jql",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "query_segmentation_sum",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "query_profiles",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "query_frequency_report",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "query_segmentation_report",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "query_segmentation_bucket",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "query_segmentation_average",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "top_event_properties",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "top_event_property_values",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "MCP Server Starter",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "calculate",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "fetch_user",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Serper Search and Scrape",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "google_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "scrape",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Jina AI",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "read_webpage",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_web",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "fact_check",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Sequential Thinking",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "sequential_thinking",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_thinking_summary",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "clear_thinking_history",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "JigsawStack Image Generation",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "image_generation",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Qdrant Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "qdrant-store",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "qdrant-find",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "MySQL Database Access",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "list_databases",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_tables",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "describe_table",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "execute_query",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Pandoc Document Conversion",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "convert-contents",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Excel",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "read_sheet_names",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_sheet_data",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "write_sheet_data",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Clear Thought MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": []
+  },
+  {
+    "mcp_name": "Onyx MCP Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search_onyx",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "chat_with_onyx",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Desktop Commander",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "execute_command",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "read_output",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "force_terminate",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "list_sessions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_processes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "kill_process",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "block_command",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "unblock_command",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "list_blocked_commands",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_file",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_multiple_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "write_file",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "create_directory",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_directory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "move_file",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "search_files",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_file_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_allowed_directories",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "edit_block",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Ableton Live Integration",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "get_session_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_track_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_midi_track",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "set_track_name",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "create_clip",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_notes_to_clip",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "set_clip_name",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "set_tempo",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "load_instrument_or_effect",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "fire_clip",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "stop_clip",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "start_playback",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "stop_playback",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_browser_tree",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_browser_items_at_path",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "load_drum_kit",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Supabase MCP Server (used by Deploya.dev)",
+    "purpose_category": "Access to Database or Data",
+    "tools": []
+  },
+  {
+    "mcp_name": "Slack",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "slack_list_channels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "slack_post_message",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "slack_reply_to_thread",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "slack_add_reaction",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "slack_get_channel_history",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "slack_get_thread_replies",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "slack_get_users",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "slack_get_user_profile",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Metabase Integration Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "list_dashboards",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_cards",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_databases",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "execute_card",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_dashboard_cards",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "execute_query",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Sequential Thinking Tools",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "sequentialthinking_tools",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Gitingest MCP Server",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "git_summary",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "git_tree",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "git_files",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Supabase MCP Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": []
+  },
+  {
+    "mcp_name": "Firebase MCP Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "firestore_add_document",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "firestore_list_collections",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "firestore_list_documents",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "firestore_get_document",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "firestore_update_document",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "firestore_delete_document",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "auth_get_user",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "storage_list_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "storage_get_file_info",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Time MCP Server",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "current_time",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "relative_time",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "days_in_month",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_timestamp",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "convert_time",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_week_year",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "PowerPoint Manipulation Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_presentation",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "open_presentation",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "save_presentation",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_presentation_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "set_core_properties",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "add_slide",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_slide_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "populate_placeholder",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_bullet_points",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_textbox",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_image",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_image_from_base64",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_table",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "format_table_cell",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "add_shape",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_chart",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Web Research Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search_google",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "visit_page",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "take_screenshot",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "WinTerm",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "write_to_terminal",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "read_terminal_output",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "send_control_character",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "GitHub",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "create_or_update_file",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_repositories",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "create_repository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_file_contents",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "push_files",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_issue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_pull_request",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "fork_repository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_branch",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_commits",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_issue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "add_issue_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_code",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_issues",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_users",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_issue",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_pull_request",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_pull_requests",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_pull_request_review",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "merge_pull_request",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_pull_request_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_pull_request_status",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_pull_request_branch",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get_pull_request_comments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_pull_request_reviews",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add_pull_request_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_pull_request",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "reply_to_pull_request_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "resolve_pull_request_conversation",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "add_pull_request_issue_comment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "update_pull_request_comment",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "File Context Server",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "read_context",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_chunk_count",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "set_profile",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get_profile_context",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "generate_outline",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Azure DevOps Integration",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "listWorkItems",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getWorkItemById",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "searchWorkItems",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "getRecentlyUpdatedWorkItems",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getMyWorkItems",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createWorkItem",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "updateWorkItem",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "addWorkItemComment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "updateWorkItemState",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "assignWorkItem",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "createLink",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "bulkCreateWorkItems",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "getBoards",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getBoardColumns",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getBoardItems",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "moveCardOnBoard",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "getSprints",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getCurrentSprint",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getSprintWorkItems",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getSprintCapacity",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getTeamMembers",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listProjects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getProjectDetails",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createProject",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "getAreas",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getIterations",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createArea",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "createIteration",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "getProcesses",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getWorkItemTypes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getWorkItemTypeFields",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listRepositories",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getRepository",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createRepository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "listBranches",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "searchCode",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "browseRepository",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getFileContent",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getCommitHistory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "listPullRequests",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createPullRequest",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "getPullRequest",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getPullRequestComments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "approvePullRequest",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "mergePullRequest",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "runAutomatedTests",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "getTestAutomationStatus",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "configureTestAgents",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "createTestDataGenerator",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "manageTestEnvironments",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "getTestFlakiness",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getTestGapAnalysis",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "runTestImpactAnalysis",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "getTestHealthDashboard",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "runTestOptimization",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "createExploratorySessions",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "recordExploratoryTestResults",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "convertFindingsToWorkItems",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "getExploratoryTestStatistics",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "runSecurityScan",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "getSecurityScanResults",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "trackSecurityVulnerabilities",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "generateSecurityCompliance",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "integrateSarifResults",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "runComplianceChecks",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "getComplianceStatus",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createComplianceReport",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "manageSecurityPolicies",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "trackSecurityAwareness",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "rotateSecrets",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "auditSecretUsage",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "vaultIntegration",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "listArtifactFeeds",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getPackageVersions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "publishPackage",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "promotePackage",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "deletePackageVersion",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "listContainerImages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getContainerImageTags",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "scanContainerImage",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "manageContainerPolicies",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "manageUniversalPackages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "createPackageDownloadReport",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "checkPackageDependencies",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "getAICodeReview",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "suggestCodeOptimization",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "identifyCodeSmells",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "getPredictiveBugAnalysis",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "getDeveloperProductivity",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getPredictiveEffortEstimation",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "getCodeQualityTrends",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "suggestWorkItemRefinements",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "suggestAutomationOpportunities",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "createIntelligentAlerts",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "predictBuildFailures",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "optimizeTestSelection",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Replicate",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "search_models",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "list_models",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_collections",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_collection",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_prediction",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "cancel_prediction",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_prediction",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_predictions",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_model",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "view_image",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "clear_image_cache",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "get_image_cache_stats",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Naver Search",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search_webkr",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_news",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_blog",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_shop",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_image",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_kin",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_book",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_encyc",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_academic",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_local",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_shopping_category",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_shopping_by_device",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_shopping_by_gender",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "datalab_shopping_by_age",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "datalab_shopping_keywords",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_shopping_keyword_by_device",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_shopping_keyword_by_gender",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "datalab_shopping_keyword_by_age",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Linear",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "linear_getViewer",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getOrganization",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getUsers",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getLabels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getTeams",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getWorkflowStates",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getProjects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_createProject",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_updateProject",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_addIssueToProject",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_getProjectIssues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getCycles",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getActiveCycle",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_addIssueToCycle",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_getIssues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getIssueById",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_searchIssues",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "linear_createIssue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_updateIssue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_createComment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_addIssueLabel",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_removeIssueLabel",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "linear_assignIssue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_subscribeToIssue",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_convertIssueToSubtask",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_createIssueRelation",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_archiveIssue",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "linear_setIssuePriority",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_transferIssue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_duplicateIssue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_getIssueHistory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getComments",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "HotNews Server",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "get_hot_news",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Web Research Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search_google",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "visit_page",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "take_screenshot",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Redis Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": []
+  },
+  {
+    "mcp_name": "MySQL Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "mysql_query",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Crypto_MCP",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "aes_encrypt",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "aes_decrypt",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "md5",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "sha1",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "sha256",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "sha384",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "sha512",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "sha224",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "des_encrypt",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "des_decrypt",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "base64_encode",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "base64_decode",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "hex_encode",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "hex_decode",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "PubMedSearch",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "search_pubmed",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "format_paper_details",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Browser Automation Agent",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "get_planner_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "execute_actions",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Linear MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "linear_getViewer",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getOrganization",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getUsers",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getLabels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getTeams",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getWorkflowStates",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getProjects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_createProject",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_updateProject",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_addIssueToProject",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_getProjectIssues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getCycles",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getActiveCycle",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_addIssueToCycle",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_getIssues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getIssueById",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_searchIssues",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "linear_createIssue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_updateIssue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_createComment",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_addIssueLabel",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_removeIssueLabel",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "linear_assignIssue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_subscribeToIssue",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_convertIssueToSubtask",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_createIssueRelation",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_archiveIssue",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "linear_setIssuePriority",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_transferIssue",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "linear_duplicateIssue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "linear_getIssueHistory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "linear_getComments",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Discord MCP Server",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "test",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "discord_login",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "discord_send",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "discord_get_forum_channels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "discord_create_forum_post",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "discord_get_forum_post",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "discord_reply_to_forum",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "discord_create_text_channel",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "discord_delete_channel",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "discord_read_messages",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "discord_get_server_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "discord_add_reaction",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "discord_add_multiple_reactions",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "discord_remove_reaction",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "discord_delete_forum_post",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "UI Flowchart Creator",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "generate_ui_flow",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Any OpenAI Compatible API Integrations",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "chat-with-string",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Smart-Thinking",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "smartthinking",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Google Maps",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "maps_geocode",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "maps_reverse_geocode",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "maps_search_places",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "maps_place_details",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "maps_distance_matrix",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "maps_elevation",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "maps_directions",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Todoist Integration",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "add-project",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get-projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-project",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update-project",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete-project",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "move-task-to-parent",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get-project-collaborators",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add-task",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get-task",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-tasks",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update-task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "close-task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "move-task-to-project",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "move-task-to-section",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete-task",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "reopen-task",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get-tasks-by-filter",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add-section",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get-section",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-sections",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update-section",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete-section",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "add-comment-to-project",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add-comment-to-task",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get-comment",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update-comment",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete-comment",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "get-task-comments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-project-comments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "add-label",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete-label",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "update-label",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get-label",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-labels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-shared-labels",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "remove-shared-label",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "rename-shared-label",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "AI \u56fe\u50cf\u751f\u6210\u670d\u52a1",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "use_description",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "generate_image",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "OSINT Server",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "whois_lookup",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "nmap_scan",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "dnsrecon_lookup",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "dnstwist_lookup",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "dig_lookup",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "host_lookup",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "osint_overview",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Xano MCP Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "xano_list_instances",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_get_instance_details",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_list_databases",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_get_workspace_details",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_list_tables",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_get_table_details",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_create_table",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_update_table",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_delete_table",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_get_table_schema",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_browse_table_content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_add_field_to_schema",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_rename_schema_field",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_delete_field",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_list_indexes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_create_btree_index",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_create_unique_index",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_create_search_index",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_delete_index",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_search_table_content",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "xano_get_table_record",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_create_table_record",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_update_table_record",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_delete_table_record",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_bulk_create_records",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_bulk_update_records",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_bulk_delete_records",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_truncate_table",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_list_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_get_file_details",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_delete_file",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_bulk_delete_files",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_browse_request_history",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_export_workspace",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_export_workspace_schema",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_browse_api_groups",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_get_api_group",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_create_api_group",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_update_api_group",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_delete_api_group",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_update_api_group_security",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_browse_apis_in_group",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_get_api",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "xano_create_api",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "xano_update_api",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "xano_delete_api",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "xano_update_api_security",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Google Search Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "search_google",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "NPX Fetch",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "fetch_html",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_markdown",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_txt",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch_json",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Think MCP Server",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "think",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "BigQuery",
+    "purpose_category": "Access to Database or Data",
+    "tools": []
+  },
+  {
+    "mcp_name": "PubMed MCP Server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "search_pubmed_key_words",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "search_pubmed_advanced",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_pubmed_article_metadata",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "download_pubmed_pdf",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "GitLab",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_or_update_file",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_repositories",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "create_repository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_file_contents",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "push_files",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_issue",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_merge_request",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "fork_repository",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_branch",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Advanced PocketBase Server V2",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "get_server_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_auth_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_collections",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_record",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_collection",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_records",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_record",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "delete_record",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "authenticate_user",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "authenticate_with_oauth2",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "authenticate_with_otp",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "auth_refresh",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "request_verification",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "confirm_verification",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "request_password_reset",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "confirm_password_reset",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "request_email_change",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "confirm_email_change",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "impersonate_user",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "create_user",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_record",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "set_collection_rules",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "update_collection_schema",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "get_collection_schema",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "backup_database",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "import_data",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "migrate_collection",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "query_collection",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "manage_indexes",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "upload_file",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "build_filter",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "set_request_options",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "manage_auth_store",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "subscribe_to_collection",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "batch_update_records",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "batch_delete_records",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Railway MCP Server",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "database_list_types",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "database_deploy_from_template",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "deployment_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "deployment_trigger",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "deployment_logs",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "deployment_status",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "domain_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "domain_create",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "domain_check",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "domain_update",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "domain_delete",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "project_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "project_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "project_create",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "project_delete",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "project_environments",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "service_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "service_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "service_create_from_repo",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "service_create_from_image",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "service_update",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "service_delete",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "service_restart",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "tcp_proxy_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "tcp_proxy_create",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "tcp_proxy_delete",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "list_service_variables",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "variable_set",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "variable_delete",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "variable_bulk_set",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "variable_copy",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "configure_api_token",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "volume_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "volume_create",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "volume_update",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "volume_delete",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Pushover Notification",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "send",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Persistent Knowledge Graph",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "create_entities",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_relations",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "add_observations",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_entities",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "delete_observations",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "delete_relations",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "read_graph",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_nodes",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "open_nodes",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "YouTube Transcript Server",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "get_transcript",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Google Drive server",
+    "purpose_category": "Access to Database or Data",
+    "tools": [
+      {
+        "tool_id": "gdrive_search",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "gdrive_read_file",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "gsheets_update_cell",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "gsheets_read",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Unity MCP Integration",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "get_current_scene_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_game_objects_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "execute_editor_command",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "get_logs",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "verify_connection",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_editor_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_file",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_multiple_files",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "write_file",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "edit_file",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "list_directory",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "directory_tree",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "search_files",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get_file_info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "find_assets_by_type",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Perplexity Chat MCP Server",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "ask_perplexity",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "chat_perplexity",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "list_chats_perplexity",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "read_chat_perplexity",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Mistral OCR",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "list_tools",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "process_local_file",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "process_url_file",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "DocsFetcher",
+    "purpose_category": "Local Work (terminal, files, code)",
+    "tools": [
+      {
+        "tool_id": "fetch-url-docs",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch-package-docs",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch-library-docs",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "fetch-multilingual-docs",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Domain Search - No API key required.",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "check_domain_availability",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "AutoGen Server",
+    "purpose_category": "Automation",
+    "tools": [
+      {
+        "tool_id": "create_agent",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "execute_chat",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "execute_group_chat",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "execute_workflow",
+        "action_category": "Run Process"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Jira Context MCP",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "get_issue",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_assigned_issues",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_issues_by_type",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_projects",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get_issue_types",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Youtube Transcript",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "get_transcript",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Perplexity Server",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "ask_perplexity",
+        "action_category": "Search/Query"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Audiense Insights",
+    "purpose_category": "Analytics",
+    "tools": [
+      {
+        "tool_id": "get-reports",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-report-info",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-audience-insights",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-baselines",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "get-categories",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "compare-audience-influencers",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "get-audience-content",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "report-summary",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "\u98de\u4e66\u591a\u7ef4\u8868\u683c",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "create_record",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "search_records",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "delete_record",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "update_record",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "list_fields",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "create_bitable_app",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "create_table",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "delete_table",
+        "action_category": "Delete/remove"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Greeting",
+    "purpose_category": "Other",
+    "tools": [
+      {
+        "tool_id": "add",
+        "action_category": "Create/add"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Mavae Image Toolbox",
+    "purpose_category": "Art/Creativity",
+    "tools": [
+      {
+        "tool_id": "image_raw_generate",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "image_collection_generate",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "image_retry_generate",
+        "action_category": "Run Process"
+      },
+      {
+        "tool_id": "image_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_images",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "generate_task_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_loras",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "list_models",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "collection_create",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "collection_delete",
+        "action_category": "Delete/remove"
+      },
+      {
+        "tool_id": "collection_toggle_public",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "collection_list",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "collection_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "token_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "compress_image",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "crop_image",
+        "action_category": "Update"
+      },
+      {
+        "tool_id": "web3_image_tokenization",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "web3_job_state",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "resize_image",
+        "action_category": "Update"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Monday.com MCP Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "monday-create-item",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "monday-get-board-groups",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "monday-create-update",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "monday-list-boards",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "monday-list-items-in-groups",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "monday-list-subitems-in-items",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "MCP Fetch",
+    "purpose_category": "Web Browser (search)",
+    "tools": [
+      {
+        "tool_id": "fetch",
+        "action_category": "Get/Retrieve/List"
+      }
+    ]
+  },
+  {
+    "mcp_name": "Contentful Management Server",
+    "purpose_category": "Workflow Planning and Productivity",
+    "tools": [
+      {
+        "tool_id": "search_entries",
+        "action_category": "Search/Query"
+      },
+      {
+        "tool_id": "create_entry",
+        "action_category": "Create/add"
+      },
+      {
+        "tool_id": "get_entry",
+        "action_category": "Get/Retrieve/List"
+      },
+      {
+        "tool_id": "update_entry",
+        "action_category": "Update"
+      }
+    ]
+  }
+]

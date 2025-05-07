@@ -2,3 +2,4 @@ categorized_mcp_tools.csv
 *.png
 .ipynb_checkpoints
 __pycache__
+.env

@@ -3,10 +3,9 @@ from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 import json
-import nltk
 from nltk.corpus import stopwords
 import re
-import os
+from collections import Counter
 
 stop_words = set(stopwords.words('english'))
 
@@ -42,6 +41,18 @@ df = pd.DataFrame(records)
 df["clean_tool_description"] = df["tool_description"].fillna("").apply(preprocess)
 df["clean_length"] = df["clean_tool_description"].apply(lambda x: len(x.split()))
 df = df[df["clean_length"] >= 5]
+
+
+# PRINTS ALL WORDS THAT APPEAR 250+ TIMES
+# all_descriptions = [preprocess(tool.get("description", "")) for mcp in data for tool in mcp.get("tools", [])]
+# all_words = " ".join(all_descriptions).split()
+# word_freq = Counter(all_words)
+# common_words = {word: count for word, count in word_freq.items() if count >= 250}
+# sorted_words = sorted(common_words.items(), key=lambda x: x[1], reverse=True)
+
+# for word, count in sorted_words:
+#     print(f"{word}: {count}")
+
 
 # # Combine tool_id and description for clarity
 # texts = (df["tool_id"] + ": " + df["clean_tool_description"]).tolist()
@@ -102,16 +113,21 @@ df = df[df["clean_length"] >= 5]
 
 
 custom_keywords = {
-    "get": ["get", "retrieve", "find", "returns"],
-    "search": ["query", "search", "view", "show", "display"],
-    "list": ["list", "file", "directory", "information", "content", "path", "knowledge"],
-    "create": ["create", "add", "generate", "register", "new"],
-    "run": ["run", "execute", "start", "launch", "task", "order"],
-    "update": ["update", "edit", "modify", "change", "reset"],
-    "delete": ["delete", "remove", "discard", "destroy", "cancel", "terminate"],
-    "images": ["images", "figma", "image", "element", "page", "browser", "graph"],
-    "github": ["github", "repository", "code", "commit", "branch", "pull", "test", "environment"],
-    "communication": ["communication", "chat", "message", "messages", "translate", "audio"],
+    "get": ["get", "returns", "search", "specific", "query"],
+    "list": ["list", "information", "args", "name", "file", "user"],
+    "create": ["create", "use", "new", "tool"],
+    # "get": ["get", "retrieve", "find", "returns", "return", "scrape", "extract"],
+    # "search": ["query", "search", "view", "show", "display", "track", "access"],
+    # "data": ["data", "list", "file", "directory", "information", "path", "knowledge", "redis", "piperun", "crm", "index", "specific", "table", "excel", "sql"],
+    # "create": ["create", "add", "generate", "register", "new"],
+    # "run": ["run", "execute", "start", "launch", "task", "order", "running", "command"],
+    # "update": ["update", "edit", "modify", "change", "reset"],
+    # "delete": ["delete", "remove", "discard", "destroy", "cancel", "terminate"],
+    # "images/web": ["images", "figma", "image", "element", "page", "browser", "graph", "web", "url", "content"],
+    # "github": ["github", "repository", "code", "commit", "branch", "pull", "test", "rpc", "flutter", "timeout"],
+    # "communication": ["communication", "chat", "message", "messages", "translate", "audio"],
+    # "location": ["location", "weather", "longitude", "travel", "distance"],
+    # "settings": ["settings", "configuration", "config", "setup", "environment", "service", "use", "tool", "user", "automation"],
 }
 
 # Assign initial category based on keyword presence
@@ -123,8 +139,13 @@ def assign_initial_label(text):
 
 df["initial_label"] = df["clean_tool_description"].apply(assign_initial_label)
 
+# # Filter categories to ensure they have between 10 and 500 items
+# label_counts = df["initial_label"].value_counts()
+# valid_labels = label_counts[(label_counts >= 10) & (label_counts <= 500)].index
+# df = df[df["initial_label"].isin(valid_labels)]
+
 # Optionally remove "other" if you want to train only on labeled data
-# df = df[df["initial_label"] != "other"]
+df = df[df["initial_label"] != "other"]
 
 # Get texts and labels
 docs = df["clean_tool_description"].tolist()
@@ -144,7 +165,7 @@ numeric_labels = [label_mapping[label] for label in labels]
 
 # Train BERTopic
 topic_model.fit(docs, y=numeric_labels)
-topic_model.reduce_topics(docs, nr_topics=15)
+topic_model.reduce_topics(docs, nr_topics=10)
 topics, probs = topic_model.transform(docs)
 df["initial_label"] = [inverse_label_mapping[num] for num in numeric_labels]
 
